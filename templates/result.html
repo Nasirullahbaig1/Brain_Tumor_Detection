@@ -9,12 +9,10 @@
 <body>
     <div class="container">
         <h1>Prediction Result</h1>
-        <div class="result">
-            <h2>{{ result }}</h2>
-            <p>Prediction Value: {{ prediction_value }}</p>
-            <img src="{{ url_for('static', filename=image_path) }}" alt="Uploaded Image">
-        </div>
-        <a href="/" class="btn">Upload Another Image</a>
+        <p>The model predicts: <strong>{{ result }}</strong></p>
+        <img src="{{ url_for('static', filename='uploads/' + image_file) }}" alt="Uploaded MRI Image">
+        <br>
+        <a href="/">Upload Another Image</a>
     </div>
 </body>
 </html>

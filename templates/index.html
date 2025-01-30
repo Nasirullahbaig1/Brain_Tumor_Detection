@@ -8,30 +8,11 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Brain Tumor Detection</h1>
-            <p>Upload an image of the brain scan for tumor detection prediction.</p>
-        </header>
-        
-        <div class="upload-section">
-            <form action="{{ url_for('predict') }}" method="POST" enctype="multipart/form-data">
-                <div class="file-input">
-                    <label for="image">Choose Image</label>
-                    <input type="file" name="image" accept="image/*" required>
-                </div>
-                <button type="submit" class="upload-btn">Upload and Predict</button>
-            </form>
-        </div>
-        
-        {% if result %}
-        <div class="result">
-            <h2>Prediction Result:</h2>
-            <p>{{ result }}</p>
-            <img src="{{ url_for('static', filename=image_path) }}" alt="Uploaded Image" class="result-img">
-        </div>
-        {% endif %}
+        <h1>Brain Tumor Detection</h1>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*" required>
+            <button type="submit">Predict</button>
+        </form>
     </div>
 </body>
 </html>
-<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-
