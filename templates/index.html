@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brain Tumor Detection</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
@@ -14,5 +15,194 @@
             <button type="submit">Predict</button>
         </form>
     </div>
+=======
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Override the result-image style to make it full width */
+        .result-image {
+            width: 100%;
+            height: auto;
+            max-height: none; /* Remove max-height limitation */
+            object-fit: contain;
+            border-radius: 6px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        /* Ensure the image container doesn't have padding that would limit the image */
+        .image-container {
+            padding: 0;
+            display: block; /* Change from flex to block */
+            background: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+            </div>
+            <div class="header-text">
+                <h1>Brain Tumor Detection System</h1>
+                <p>Advanced AI-powered MRI analysis for medical professionals</p>
+            </div>
+        </header>
+        
+        <main>
+            <div class="dashboard-layout">
+                <!-- Left side - Controls -->
+                <div class="controls-panel">
+                    <div class="section-heading">
+                        <i class="fas fa-upload"></i>
+                        <h2>Upload Images</h2>
+                    </div>
+                    
+                    <form action="/predict" method="POST" enctype="multipart/form-data" id="upload-form">
+                        <div class="upload-zone" id="upload-dropzone">
+                            <label for="images">
+                                <div class="upload-prompt">
+                                    <i class="fas fa-file-medical-alt"></i>
+                                    <span>Drag & drop MRI scans or click to browse</span>
+                                    <p class="upload-info">Multiple images allowed (JPEG, PNG)</p>
+                                </div>
+                                <input type="file" id="images" name="images" accept="image/*" multiple required>
+                            </label>
+                        </div>
+                        
+                        <div class="selected-files-container" id="selected-files">
+                            <!-- Selected files will appear here -->
+                        </div>
+                        
+                        <button type="submit" class="primary-btn">
+                            <i class="fas fa-search"></i> Analyze Images
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Right side - Results -->
+                <div class="results-panel">
+                    {% if error %}
+                    <div class="alert error">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p>{{ error }}</p>
+                    </div>
+                    {% endif %}
+
+                    {% if results %}
+                    <div class="section-heading">
+                        <i class="fas fa-chart-pie"></i>
+                        <h2>Analysis Results</h2>
+                    </div>
+                    
+                    <div class="summary">
+                        <div class="summary-icon">
+                            {% if "Tumor Detected" in majority_result %}
+                            <i class="fas fa-exclamation-triangle"></i>
+                            {% else %}
+                            <i class="fas fa-check-circle"></i>
+                            {% endif %}
+                        </div>
+                        <div class="summary-text">
+                            <h3>Majority Result:</h3>
+                            <p class="{% if 'Tumor Detected' in majority_result %}alert-text{% else %}healthy-text{% endif %}">
+                                {{ majority_result }}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="results-grid">
+                        {% for result in results %}
+                        <div class="result-item">
+                            <div class="result-header">
+                                <h4>{{ result.filename }}</h4>
+                            </div>
+                            
+                            <div class="image-container">
+                                {% if result.highlighted_path %}
+                                <img src="{{ url_for('static', filename='uploads/' + result.highlighted_path.split('/')[-1]) }}" alt="Highlighted Tumor" class="result-image">
+                                {% else %}
+                                <img src="{{ url_for('static', filename='uploads/' + result.original_path.split('/')[-1]) }}" alt="Original MRI Scan" class="result-image">
+                                {% endif %}
+                            </div>
+                            
+                            <div class="result-details">
+                                <div class="detail-item">
+                                    <span class="detail-label"><i class="fas fa-{% if 'Tumor Detected' in result.status %}exclamation-triangle{% else %}check-circle{% endif %}"></i> Status:</span>
+                                    <span class="detail-value {% if 'Tumor Detected' in result.status %}alert-text{% else %}healthy-text{% endif %}">{{ result.status }}</span>
+                                </div>
+                                
+                                {% if result.probability is not none %}
+                                <div class="detail-item">
+                                    <span class="detail-label"><i class="fas fa-percentage"></i> Probability:</span>
+                                    <span class="detail-value">{{ "%.2f"|format(result.probability * 100) }}%</span>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <div class="section-heading">
+                        <i class="fas fa-chart-pie"></i>
+                        <h2>Analysis Results</h2>
+                    </div>
+                    
+                    <div class="results-placeholder">
+                        <i class="fas fa-microscope"></i>
+                        <h3>No Results Yet</h3>
+                        <p>Upload and analyze MRI scans to see detection results here</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2025 Brain Tumor Detection System | Medical AI Technology</p>
+        </footer>
+    </div>
+    
+    <script>
+        // JavaScript to show selected files
+        document.getElementById('images').addEventListener('change', function(event) {
+            const fileList = event.target.files;
+            const selectedFilesContainer = document.getElementById('selected-files');
+            selectedFilesContainer.innerHTML = '';
+            
+            if (fileList.length > 0) {
+                document.getElementById('upload-dropzone').classList.add('has-files');
+                
+                const fileCounter = document.createElement('div');
+                fileCounter.className = 'file-counter';
+                fileCounter.innerHTML = `<i class="fas fa-file-medical"></i> ${fileList.length} file(s) selected`;
+                selectedFilesContainer.appendChild(fileCounter);
+                
+                for (let i = 0; i < Math.min(fileList.length, 3); i++) {
+                    const fileItem = document.createElement('div');
+                    fileItem.className = 'file-item';
+                    
+                    const fileName = document.createElement('span');
+                    fileName.className = 'file-name';
+                    fileName.textContent = fileList[i].name;
+                    
+                    fileItem.appendChild(fileName);
+                    selectedFilesContainer.appendChild(fileItem);
+                }
+                
+                if (fileList.length > 3) {
+                    const moreFiles = document.createElement('div');
+                    moreFiles.className = 'more-files';
+                    moreFiles.textContent = `+${fileList.length - 3} more files`;
+                    selectedFilesContainer.appendChild(moreFiles);
+                }
+            } else {
+                document.getElementById('upload-dropzone').classList.remove('has-files');
+            }
+        });
+    </script>
+>>>>>>> 6f50d9a (30_April_updates)
 </body>
 </html>

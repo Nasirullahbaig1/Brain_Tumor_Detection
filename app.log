@@ -1,0 +1,1784 @@
+2025-03-03 05:10:05,011 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:10:05,493 - __main__ - INFO - Model loaded in 0.48 seconds
+2025-03-03 05:10:05,494 - __main__ - INFO - Model Summary:
+2025-03-03 05:10:05,662 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:10:05,668 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:10:06,993 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:10:06,994 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:10:06,995 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:10:07,085 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 05:10:07,086 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 05:10:07,089 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 05:10:12,811 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:10:13,026 - __main__ - INFO - Model loaded in 0.21 seconds
+2025-03-03 05:10:13,026 - __main__ - INFO - Model Summary:
+2025-03-03 05:10:13,117 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:10:13,130 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:10:13,474 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:10:13,475 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:10:13,476 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:10:13,539 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 05:10:13,542 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 05:10:16,313 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:10:16] "GET / HTTP/1.1" 200 -
+2025-03-03 05:10:16,668 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:10:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 05:10:17,393 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:10:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-03 05:10:53,283 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-03 05:10:53,344 - __main__ - INFO - Image static/uploads/Train_Tumor_1.jpg: Size=512x512, Channels=3
+2025-03-03 05:10:53,382 - __main__ - INFO - Color variance: 49.03
+2025-03-03 05:10:53,443 - __main__ - INFO - Dark pixel ratio: 0.61, Bright pixel ratio: 0.01
+2025-03-03 05:10:53,445 - __main__ - INFO - Valid MRI: False
+2025-03-03 05:10:53,446 - __main__ - INFO - Completed processing 1 files. Valid: 0, Tumor positive: 0
+2025-03-03 05:10:53,448 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:10:53] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:10:53,525 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:10:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:10:53,534 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:10:53] "GET /static/uploads/Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:11:22,682 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_47.jpg
+2025-03-03 05:11:22,714 - __main__ - INFO - Image static/uploads/Train_Tumor_47.jpg: Size=512x512, Channels=3
+2025-03-03 05:11:22,763 - __main__ - INFO - Color variance: 42.53
+2025-03-03 05:11:22,770 - __main__ - INFO - Dark pixel ratio: 0.47, Bright pixel ratio: 0.00
+2025-03-03 05:11:22,771 - __main__ - INFO - Valid MRI: False
+2025-03-03 05:11:22,773 - __main__ - INFO - Completed processing 1 files. Valid: 0, Tumor positive: 0
+2025-03-03 05:11:22,776 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:11:22] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:11:22,845 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:11:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:11:22,850 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:11:22] "GET /static/uploads/Train_Tumor_47.jpg HTTP/1.1" 200 -
+2025-03-03 05:16:04,598 - werkzeug - INFO -  * Detected change in 'c:\\Users\\PMLS\\Desktop\\FYP\\brain_tumor_app\\app.py', reloading
+2025-03-03 05:16:05,810 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 05:16:14,712 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:16:15,002 - __main__ - INFO - Model loaded in 0.29 seconds
+2025-03-03 05:16:15,002 - __main__ - INFO - Model Summary:
+2025-03-03 05:16:15,039 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:16:15,046 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:16:15,779 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:16:15,780 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:16:15,784 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:16:15,819 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 05:16:15,824 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 05:16:53,391 - werkzeug - INFO -  * Detected change in 'c:\\Users\\PMLS\\Desktop\\FYP\\brain_tumor_app\\app.py', reloading
+2025-03-03 05:16:54,083 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 05:28:01,194 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:28:01,357 - __main__ - INFO - Model loaded in 0.16 seconds
+2025-03-03 05:28:01,358 - __main__ - INFO - Model Summary:
+2025-03-03 05:28:01,375 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:28:01,380 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:28:01,624 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:28:01,624 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:28:01,625 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:28:01,647 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 05:28:01,647 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 05:28:01,649 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 05:28:05,435 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:28:05,594 - __main__ - INFO - Model loaded in 0.16 seconds
+2025-03-03 05:28:05,595 - __main__ - INFO - Model Summary:
+2025-03-03 05:28:05,609 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:28:05,615 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:28:05,886 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:28:05,887 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:28:05,888 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:28:05,894 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 05:28:05,896 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 05:28:16,617 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:28:16] "GET / HTTP/1.1" 200 -
+2025-03-03 05:28:16,789 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:28:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:28:26,092 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-03 05:28:26,092 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_1.jpg
+2025-03-03 05:28:26,093 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_1.jpg
+2025-03-03 05:28:26,247 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:28:26,248 - __main__ - INFO - Raw prediction probability: 0.9966
+2025-03-03 05:28:26,257 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:28:26,275 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:28:26,275 - __main__ - INFO - Processed Train_Tumor_1.jpg in 0.19 seconds
+2025-03-03 05:28:26,275 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:28:26,276 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:28:26] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:28:26,309 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:28:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:28:26,345 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:28:26] "GET /static/uploads/original_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:28:26,347 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:28:26] "GET /static/uploads/highlighted_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:29:02,532 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_2.jpg
+2025-03-03 05:29:02,533 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_2.jpg
+2025-03-03 05:29:02,533 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_2.jpg
+2025-03-03 05:29:02,652 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:29:02,653 - __main__ - INFO - Raw prediction probability: 0.9949
+2025-03-03 05:29:02,658 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:29:02,661 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:29:02,661 - __main__ - INFO - Processed Train_Tumor_2.jpg in 0.13 seconds
+2025-03-03 05:29:02,662 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:29:02,663 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:29:02] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:29:02,684 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:29:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:29:02,701 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:29:02] "GET /static/uploads/original_Train_Tumor_2.jpg HTTP/1.1" 200 -
+2025-03-03 05:29:02,706 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:29:02] "GET /static/uploads/highlighted_Train_Tumor_2.jpg HTTP/1.1" 200 -
+2025-03-03 05:36:07,251 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:36:07,418 - __main__ - INFO - Model loaded in 0.17 seconds
+2025-03-03 05:36:07,419 - __main__ - INFO - Model Summary:
+2025-03-03 05:36:07,436 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:36:07,440 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:36:07,706 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:36:07,706 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:36:07,708 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:36:07,729 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 05:36:07,729 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 05:36:07,731 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 05:36:11,508 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:36:11,700 - __main__ - INFO - Model loaded in 0.19 seconds
+2025-03-03 05:36:11,701 - __main__ - INFO - Model Summary:
+2025-03-03 05:36:11,719 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:36:11,724 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:36:12,000 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:36:12,001 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:36:12,003 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:36:12,008 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 05:36:12,010 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 05:36:14,556 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:14] "GET / HTTP/1.1" 200 -
+2025-03-03 05:36:14,702 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:36:25,096 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-03 05:36:25,096 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_1.jpg
+2025-03-03 05:36:25,097 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_1.jpg
+2025-03-03 05:36:25,149 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:36:25,253 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:36:25,254 - __main__ - INFO - Raw prediction probability: 0.9966
+2025-03-03 05:36:25,266 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:36:25,306 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:36:25,309 - __main__ - INFO - Enhanced heatmap overlay created with dimensions (512, 512, 3)
+2025-03-03 05:36:25,314 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:36:25,315 - __main__ - INFO - Processed Train_Tumor_1.jpg in 0.22 seconds
+2025-03-03 05:36:25,315 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:36:25,316 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:25] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:36:25,365 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:36:25,382 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:25] "GET /static/uploads/original_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:36:25,397 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:25] "GET /static/uploads/highlighted_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:36:47,866 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_2.jpg
+2025-03-03 05:36:47,868 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_2.jpg
+2025-03-03 05:36:47,869 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_2.jpg
+2025-03-03 05:36:47,886 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:36:47,996 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:36:47,997 - __main__ - INFO - Raw prediction probability: 0.9949
+2025-03-03 05:36:48,004 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:36:48,014 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:36:48,015 - __main__ - INFO - Enhanced heatmap overlay created with dimensions (512, 512, 3)
+2025-03-03 05:36:48,023 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:36:48,023 - __main__ - INFO - Processed Train_Tumor_2.jpg in 0.16 seconds
+2025-03-03 05:36:48,024 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:36:48,025 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:48] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:36:48,043 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:36:48,068 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:48] "GET /static/uploads/highlighted_Train_Tumor_2.jpg HTTP/1.1" 200 -
+2025-03-03 05:36:48,069 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:36:48] "GET /static/uploads/original_Train_Tumor_2.jpg HTTP/1.1" 200 -
+2025-03-03 05:37:45,698 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_7.jpg
+2025-03-03 05:37:45,698 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_7.jpg
+2025-03-03 05:37:45,699 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_7.jpg
+2025-03-03 05:37:45,719 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:37:45,823 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:37:45,824 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:37:45,829 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:37:45,837 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:37:45,838 - __main__ - INFO - Enhanced heatmap overlay created with dimensions (512, 512, 3)
+2025-03-03 05:37:45,845 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:37:45,846 - __main__ - INFO - Processed Train_Tumor_7.jpg in 0.15 seconds
+2025-03-03 05:37:45,847 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_8.jpg
+2025-03-03 05:37:45,847 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_8.jpg
+2025-03-03 05:37:45,848 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_8.jpg
+2025-03-03 05:37:45,872 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:37:45,979 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:37:45,981 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:37:45,985 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:37:45,993 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:37:45,993 - __main__ - INFO - Enhanced heatmap overlay created with dimensions (512, 512, 3)
+2025-03-03 05:37:46,001 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:37:46,001 - __main__ - INFO - Processed Train_Tumor_8.jpg in 0.15 seconds
+2025-03-03 05:37:46,002 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_9.jpg
+2025-03-03 05:37:46,003 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_9.jpg
+2025-03-03 05:37:46,003 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_9.jpg
+2025-03-03 05:37:46,015 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:37:46,113 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:37:46,113 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 05:37:46,119 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:37:46,127 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:37:46,128 - __main__ - INFO - Enhanced heatmap overlay created with dimensions (512, 512, 3)
+2025-03-03 05:37:46,139 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:37:46,139 - __main__ - INFO - Processed Train_Tumor_9.jpg in 0.14 seconds
+2025-03-03 05:37:46,143 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_10.jpg
+2025-03-03 05:37:46,143 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_10.jpg
+2025-03-03 05:37:46,144 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_10.jpg
+2025-03-03 05:37:46,162 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:37:46,253 - __main__ - INFO - Prediction completed in 0.09 seconds
+2025-03-03 05:37:46,254 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 05:37:46,261 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:37:46,269 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:37:46,270 - __main__ - INFO - Enhanced heatmap overlay created with dimensions (512, 512, 3)
+2025-03-03 05:37:46,279 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:37:46,279 - __main__ - INFO - Processed Train_Tumor_10.jpg in 0.14 seconds
+2025-03-03 05:37:46,280 - __main__ - INFO - Completed processing 4 files. Valid: 4, Tumor positive: 4
+2025-03-03 05:37:46,281 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:37:46,307 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:37:46,329 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "GET /static/uploads/original_Train_Tumor_7.jpg HTTP/1.1" 200 -
+2025-03-03 05:37:46,335 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "GET /static/uploads/original_Train_Tumor_8.jpg HTTP/1.1" 200 -
+2025-03-03 05:37:46,339 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "GET /static/uploads/highlighted_Train_Tumor_7.jpg HTTP/1.1" 200 -
+2025-03-03 05:37:46,346 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "GET /static/uploads/highlighted_Train_Tumor_8.jpg HTTP/1.1" 200 -
+2025-03-03 05:37:46,352 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "GET /static/uploads/highlighted_Train_Tumor_9.jpg HTTP/1.1" 200 -
+2025-03-03 05:37:46,356 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "GET /static/uploads/original_Train_Tumor_9.jpg HTTP/1.1" 200 -
+2025-03-03 05:37:46,368 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "GET /static/uploads/original_Train_Tumor_10.jpg HTTP/1.1" 200 -
+2025-03-03 05:37:46,381 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:37:46] "GET /static/uploads/highlighted_Train_Tumor_10.jpg HTTP/1.1" 200 -
+2025-03-03 05:38:21,827 - __main__ - INFO - Saved uploaded file to static/uploads/Train_No-tumor_1.jpg
+2025-03-03 05:38:21,828 - __main__ - INFO - Bypassing validation for static/uploads/Train_No-tumor_1.jpg
+2025-03-03 05:38:21,828 - __main__ - INFO - Processing image: static/uploads/Train_No-tumor_1.jpg
+2025-03-03 05:38:21,847 - __main__ - INFO - Preprocessed image with original size (225, 225, 3), resized to (128, 128, 3)
+2025-03-03 05:38:21,955 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:38:21,956 - __main__ - INFO - Raw prediction probability: 0.0000
+2025-03-03 05:38:21,958 - __main__ - INFO - Processed Train_No-tumor_1.jpg in 0.13 seconds
+2025-03-03 05:38:21,959 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-03-03 05:38:21,960 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:38:21] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:38:21,985 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:38:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:38:22,008 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:38:22] "GET /static/uploads/original_Train_No-tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:39:26,092 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:39:26,093 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:39:26,093 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:39:26,113 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 05:39:26,221 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:39:26,221 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 05:39:26,231 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:39:26,244 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:39:26,245 - __main__ - INFO - Enhanced heatmap overlay created with dimensions (619, 495, 3)
+2025-03-03 05:39:26,251 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:39:26,251 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.16 seconds
+2025-03-03 05:39:26,252 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:39:26,253 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:39:26] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:39:26,286 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:39:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:39:26,323 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:39:26] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:39:26,333 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:39:26] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:50:11,232 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:50:11,387 - __main__ - INFO - Model loaded in 0.16 seconds
+2025-03-03 05:50:11,388 - __main__ - INFO - Model Summary:
+2025-03-03 05:50:11,403 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:50:11,407 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:50:11,662 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:50:11,662 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:50:11,663 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:50:11,684 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 05:50:11,684 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 05:50:11,686 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 05:50:15,604 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:50:15,784 - __main__ - INFO - Model loaded in 0.18 seconds
+2025-03-03 05:50:15,785 - __main__ - INFO - Model Summary:
+2025-03-03 05:50:15,803 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:50:15,807 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:50:16,082 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:50:16,082 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:50:16,083 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:50:16,089 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 05:50:16,091 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 05:50:16,605 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:50:16] "GET / HTTP/1.1" 200 -
+2025-03-03 05:50:16,689 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:50:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 05:50:23,584 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:50:23,585 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:50:23,585 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:50:23,611 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 05:50:23,718 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:50:23,719 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 05:50:23,728 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:50:23,759 - __main__ - INFO - Enhanced focused heatmap created
+2025-03-03 05:50:23,769 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:50:23,770 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.19 seconds
+2025-03-03 05:50:23,770 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:50:23,772 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:50:23] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:50:23,796 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:50:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:50:23,819 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:50:23] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:50:23,829 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:50:23] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:51:42,883 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_5.jpg
+2025-03-03 05:51:42,883 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_5.jpg
+2025-03-03 05:51:42,884 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_5.jpg
+2025-03-03 05:51:42,899 - __main__ - INFO - Preprocessed image with original size (475, 401, 3), resized to (128, 128, 3)
+2025-03-03 05:51:42,982 - __main__ - INFO - Prediction completed in 0.08 seconds
+2025-03-03 05:51:42,983 - __main__ - INFO - Raw prediction probability: 0.9987
+2025-03-03 05:51:42,986 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:51:42,992 - __main__ - INFO - Enhanced focused heatmap created
+2025-03-03 05:51:42,996 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:51:42,997 - __main__ - INFO - Processed Test_Tumor_5.jpg in 0.11 seconds
+2025-03-03 05:51:42,997 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:51:42,998 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:51:42] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:51:43,024 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:51:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:51:43,042 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:51:43] "GET /static/uploads/original_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 05:51:43,048 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:51:43] "GET /static/uploads/highlighted_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 05:55:03,852 - werkzeug - INFO -  * Detected change in 'c:\\Users\\PMLS\\Desktop\\FYP\\brain_tumor_app\\app.py', reloading
+2025-03-03 05:55:04,725 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 05:55:58,992 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:55:59,154 - __main__ - INFO - Model loaded in 0.16 seconds
+2025-03-03 05:55:59,154 - __main__ - INFO - Model Summary:
+2025-03-03 05:55:59,176 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:55:59,181 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:55:59,433 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:55:59,433 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:55:59,434 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:55:59,453 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 05:55:59,454 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 05:55:59,456 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 05:56:03,864 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 05:56:04,110 - __main__ - INFO - Model loaded in 0.25 seconds
+2025-03-03 05:56:04,110 - __main__ - INFO - Model Summary:
+2025-03-03 05:56:04,128 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 05:56:04,137 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 05:56:04,435 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 05:56:04,436 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 05:56:04,438 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 05:56:04,447 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 05:56:04,449 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 05:56:05,200 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:05] "GET / HTTP/1.1" 200 -
+2025-03-03 05:56:05,310 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:56:15,804 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:56:15,806 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:56:15,806 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 05:56:15,856 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 05:56:15,962 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:56:15,962 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 05:56:15,983 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:56:15,999 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:56:16,000 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:56:16,001 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:56:16,004 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:56:16,051 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:56:16,054 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:56:16,064 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:56:16,065 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.26 seconds
+2025-03-03 05:56:16,066 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:56:16,067 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:16] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:56:16,092 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:56:16,117 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:16] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:56:16,118 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:16] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 05:56:41,137 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_5.jpg
+2025-03-03 05:56:41,138 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_5.jpg
+2025-03-03 05:56:41,139 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_5.jpg
+2025-03-03 05:56:41,163 - __main__ - INFO - Preprocessed image with original size (475, 401, 3), resized to (128, 128, 3)
+2025-03-03 05:56:41,272 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:56:41,273 - __main__ - INFO - Raw prediction probability: 0.9987
+2025-03-03 05:56:41,277 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:56:41,280 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:56:41,281 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:56:41,282 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:56:41,283 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:56:41,296 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:56:41,297 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:56:41,304 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:56:41,305 - __main__ - INFO - Processed Test_Tumor_5.jpg in 0.17 seconds
+2025-03-03 05:56:41,306 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 05:56:41,308 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:41] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:56:41,341 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:56:41,360 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:41] "GET /static/uploads/original_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 05:56:41,361 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:56:41] "GET /static/uploads/highlighted_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:05,132 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_318.jpg
+2025-03-03 05:57:05,132 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_318.jpg
+2025-03-03 05:57:05,133 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_318.jpg
+2025-03-03 05:57:05,154 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:57:05,271 - __main__ - INFO - Prediction completed in 0.12 seconds
+2025-03-03 05:57:05,272 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:57:05,277 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:57:05,281 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:57:05,282 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:57:05,283 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:57:05,287 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:57:05,308 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,309 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:57:05,316 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,317 - __main__ - INFO - Processed Test_Tumor_318.jpg in 0.19 seconds
+2025-03-03 05:57:05,318 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_319.jpg
+2025-03-03 05:57:05,319 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_319.jpg
+2025-03-03 05:57:05,320 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_319.jpg
+2025-03-03 05:57:05,334 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:57:05,437 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:57:05,438 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:57:05,443 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:57:05,446 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:57:05,448 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:57:05,449 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:57:05,451 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:57:05,472 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,473 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:57:05,481 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,482 - __main__ - INFO - Processed Test_Tumor_319.jpg in 0.16 seconds
+2025-03-03 05:57:05,483 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_320.jpg
+2025-03-03 05:57:05,483 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_320.jpg
+2025-03-03 05:57:05,487 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_320.jpg
+2025-03-03 05:57:05,499 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:57:05,593 - __main__ - INFO - Prediction completed in 0.09 seconds
+2025-03-03 05:57:05,594 - __main__ - INFO - Raw prediction probability: 0.9996
+2025-03-03 05:57:05,598 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:57:05,602 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:57:05,603 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:57:05,604 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:57:05,606 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:57:05,624 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,624 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:57:05,633 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,634 - __main__ - INFO - Processed Test_Tumor_320.jpg in 0.15 seconds
+2025-03-03 05:57:05,636 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_323.jpg
+2025-03-03 05:57:05,636 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_323.jpg
+2025-03-03 05:57:05,637 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_323.jpg
+2025-03-03 05:57:05,649 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:57:05,754 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:57:05,754 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:57:05,759 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:57:05,762 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:57:05,764 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:57:05,764 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:57:05,767 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:57:05,787 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,788 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:57:05,794 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,795 - __main__ - INFO - Processed Test_Tumor_323.jpg in 0.16 seconds
+2025-03-03 05:57:05,797 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_324.jpg
+2025-03-03 05:57:05,798 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_324.jpg
+2025-03-03 05:57:05,799 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_324.jpg
+2025-03-03 05:57:05,816 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:57:05,912 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:57:05,912 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:57:05,917 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:57:05,922 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:57:05,923 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:57:05,925 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:57:05,927 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:57:05,946 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,947 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:57:05,953 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:05,954 - __main__ - INFO - Processed Test_Tumor_324.jpg in 0.16 seconds
+2025-03-03 05:57:05,957 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_325.jpg
+2025-03-03 05:57:05,958 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_325.jpg
+2025-03-03 05:57:05,958 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_325.jpg
+2025-03-03 05:57:05,970 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:57:06,069 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:57:06,069 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 05:57:06,074 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:57:06,077 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:57:06,078 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:57:06,079 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:57:06,083 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:57:06,108 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:06,109 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:57:06,117 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:57:06,118 - __main__ - INFO - Processed Test_Tumor_325.jpg in 0.16 seconds
+2025-03-03 05:57:06,118 - __main__ - INFO - Completed processing 6 files. Valid: 6, Tumor positive: 6
+2025-03-03 05:57:06,120 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:57:06,171 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:57:06,207 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/original_Test_Tumor_318.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,209 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/highlighted_Test_Tumor_318.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,214 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/original_Test_Tumor_319.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,216 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/highlighted_Test_Tumor_319.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,227 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/highlighted_Test_Tumor_320.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,228 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/original_Test_Tumor_320.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,273 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/original_Test_Tumor_323.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,294 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/highlighted_Test_Tumor_323.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,307 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/original_Test_Tumor_325.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,309 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/original_Test_Tumor_324.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,315 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/highlighted_Test_Tumor_324.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:06,320 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:06] "GET /static/uploads/highlighted_Test_Tumor_325.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:53,186 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_491.jpg
+2025-03-03 05:57:53,186 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_491.jpg
+2025-03-03 05:57:53,188 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_491.jpg
+2025-03-03 05:57:53,198 - __main__ - INFO - Preprocessed image with original size (239, 211, 3), resized to (128, 128, 3)
+2025-03-03 05:57:53,308 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:57:53,308 - __main__ - INFO - Raw prediction probability: 0.1223
+2025-03-03 05:57:53,311 - __main__ - INFO - Processed Test_Tumor_491.jpg in 0.13 seconds
+2025-03-03 05:57:53,312 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_492.jpg
+2025-03-03 05:57:53,312 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_492.jpg
+2025-03-03 05:57:53,312 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_492.jpg
+2025-03-03 05:57:53,325 - __main__ - INFO - Preprocessed image with original size (234, 215, 3), resized to (128, 128, 3)
+2025-03-03 05:57:53,418 - __main__ - INFO - Prediction completed in 0.09 seconds
+2025-03-03 05:57:53,419 - __main__ - INFO - Raw prediction probability: 0.0034
+2025-03-03 05:57:53,421 - __main__ - INFO - Processed Test_Tumor_492.jpg in 0.11 seconds
+2025-03-03 05:57:53,422 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_493.jpg
+2025-03-03 05:57:53,423 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_493.jpg
+2025-03-03 05:57:53,423 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_493.jpg
+2025-03-03 05:57:53,434 - __main__ - INFO - Preprocessed image with original size (225, 225, 3), resized to (128, 128, 3)
+2025-03-03 05:57:53,543 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:57:53,544 - __main__ - INFO - Raw prediction probability: 0.4303
+2025-03-03 05:57:53,547 - __main__ - INFO - Processed Test_Tumor_493.jpg in 0.13 seconds
+2025-03-03 05:57:53,549 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_496.jpg
+2025-03-03 05:57:53,549 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_496.jpg
+2025-03-03 05:57:53,549 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_496.jpg
+2025-03-03 05:57:53,559 - __main__ - INFO - Preprocessed image with original size (216, 214, 3), resized to (128, 128, 3)
+2025-03-03 05:57:53,658 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:57:53,659 - __main__ - INFO - Raw prediction probability: 0.0470
+2025-03-03 05:57:53,662 - __main__ - INFO - Processed Test_Tumor_496.jpg in 0.11 seconds
+2025-03-03 05:57:53,663 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_497.jpg
+2025-03-03 05:57:53,663 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_497.jpg
+2025-03-03 05:57:53,664 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_497.jpg
+2025-03-03 05:57:53,676 - __main__ - INFO - Preprocessed image with original size (251, 201, 3), resized to (128, 128, 3)
+2025-03-03 05:57:53,775 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:57:53,775 - __main__ - INFO - Raw prediction probability: 0.0004
+2025-03-03 05:57:53,778 - __main__ - INFO - Processed Test_Tumor_497.jpg in 0.12 seconds
+2025-03-03 05:57:53,780 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_498.jpg
+2025-03-03 05:57:53,780 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_498.jpg
+2025-03-03 05:57:53,780 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_498.jpg
+2025-03-03 05:57:53,790 - __main__ - INFO - Preprocessed image with original size (235, 214, 3), resized to (128, 128, 3)
+2025-03-03 05:57:53,903 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:57:53,903 - __main__ - INFO - Raw prediction probability: 0.0024
+2025-03-03 05:57:53,907 - __main__ - INFO - Processed Test_Tumor_498.jpg in 0.13 seconds
+2025-03-03 05:57:53,907 - __main__ - INFO - Completed processing 6 files. Valid: 6, Tumor positive: 0
+2025-03-03 05:57:53,908 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:53] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:57:53,934 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:57:53,966 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:53] "GET /static/uploads/original_Test_Tumor_491.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:53,970 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:53] "GET /static/uploads/original_Test_Tumor_492.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:53,975 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:53] "GET /static/uploads/original_Test_Tumor_493.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:53,976 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:53] "GET /static/uploads/original_Test_Tumor_496.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:53,982 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:53] "GET /static/uploads/original_Test_Tumor_497.jpg HTTP/1.1" 200 -
+2025-03-03 05:57:53,984 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:57:53] "GET /static/uploads/original_Test_Tumor_498.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:32,591 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1188.jpg
+2025-03-03 05:58:32,592 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1188.jpg
+2025-03-03 05:58:32,592 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1188.jpg
+2025-03-03 05:58:32,607 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:58:32,713 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:58:32,714 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:58:32,719 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:58:32,724 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:58:32,725 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:58:32,726 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:58:32,728 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:58:32,749 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:32,750 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:58:32,757 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:32,758 - __main__ - INFO - Processed Test_Tumor_1188.jpg in 0.17 seconds
+2025-03-03 05:58:32,760 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1189.jpg
+2025-03-03 05:58:32,760 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1189.jpg
+2025-03-03 05:58:32,761 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1189.jpg
+2025-03-03 05:58:32,781 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:58:32,881 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:58:32,882 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:58:32,887 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:58:32,892 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:58:32,894 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:58:32,896 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:58:32,899 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:58:32,916 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:32,918 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:58:32,926 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:32,927 - __main__ - INFO - Processed Test_Tumor_1189.jpg in 0.17 seconds
+2025-03-03 05:58:32,929 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1190.jpg
+2025-03-03 05:58:32,929 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1190.jpg
+2025-03-03 05:58:32,930 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1190.jpg
+2025-03-03 05:58:32,943 - __main__ - INFO - Preprocessed image with original size (436, 383, 3), resized to (128, 128, 3)
+2025-03-03 05:58:33,046 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 05:58:33,046 - __main__ - INFO - Raw prediction probability: 0.9998
+2025-03-03 05:58:33,051 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:58:33,053 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:58:33,054 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:58:33,055 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:58:33,057 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:58:33,067 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:33,068 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:58:33,076 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:33,077 - __main__ - INFO - Processed Test_Tumor_1190.jpg in 0.15 seconds
+2025-03-03 05:58:33,079 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1193.jpg
+2025-03-03 05:58:33,080 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1193.jpg
+2025-03-03 05:58:33,080 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1193.jpg
+2025-03-03 05:58:33,094 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:58:33,226 - __main__ - INFO - Prediction completed in 0.13 seconds
+2025-03-03 05:58:33,227 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 05:58:33,233 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:58:33,238 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:58:33,240 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:58:33,241 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:58:33,245 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:58:33,281 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:33,281 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:58:33,290 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:33,291 - __main__ - INFO - Processed Test_Tumor_1193.jpg in 0.21 seconds
+2025-03-03 05:58:33,292 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1194.jpg
+2025-03-03 05:58:33,293 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1194.jpg
+2025-03-03 05:58:33,293 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1194.jpg
+2025-03-03 05:58:33,313 - __main__ - INFO - Preprocessed image with original size (548, 538, 3), resized to (128, 128, 3)
+2025-03-03 05:58:33,422 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 05:58:33,422 - __main__ - INFO - Raw prediction probability: 0.8794
+2025-03-03 05:58:33,429 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:58:33,435 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:58:33,436 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:58:33,437 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:58:33,442 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:58:33,472 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:33,472 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:58:33,480 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:33,481 - __main__ - INFO - Processed Test_Tumor_1194.jpg in 0.19 seconds
+2025-03-03 05:58:33,482 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1195.jpg
+2025-03-03 05:58:33,483 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1195.jpg
+2025-03-03 05:58:33,483 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1195.jpg
+2025-03-03 05:58:33,497 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 05:58:33,590 - __main__ - INFO - Prediction completed in 0.09 seconds
+2025-03-03 05:58:33,590 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 05:58:33,595 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 05:58:33,601 - __main__ - INFO - Heatmap stats - Min: 0.0, Max: 0.0, Mean: 0.0
+2025-03-03 05:58:33,604 - __main__ - INFO - Thresholded heatmap - Sum: 0.0, Max: 0.0
+2025-03-03 05:58:33,607 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 05:58:33,610 - __main__ - ERROR - No activation in heatmap even after lowering threshold
+2025-03-03 05:58:33,639 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:33,641 - __main__ - INFO - Enhanced focused heatmap created successfully
+2025-03-03 05:58:33,648 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 05:58:33,649 - __main__ - INFO - Processed Test_Tumor_1195.jpg in 0.17 seconds
+2025-03-03 05:58:33,649 - __main__ - INFO - Completed processing 6 files. Valid: 6, Tumor positive: 6
+2025-03-03 05:58:33,651 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "POST /predict HTTP/1.1" 200 -
+2025-03-03 05:58:33,683 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 05:58:33,713 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/original_Test_Tumor_1188.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,714 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/highlighted_Test_Tumor_1188.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,730 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/highlighted_Test_Tumor_1189.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,732 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/original_Test_Tumor_1189.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,732 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/original_Test_Tumor_1190.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,741 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/highlighted_Test_Tumor_1190.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,781 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/highlighted_Test_Tumor_1193.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,790 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/original_Test_Tumor_1193.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,796 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/original_Test_Tumor_1194.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,821 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/highlighted_Test_Tumor_1194.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,834 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/original_Test_Tumor_1195.jpg HTTP/1.1" 200 -
+2025-03-03 05:58:33,843 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 05:58:33] "GET /static/uploads/highlighted_Test_Tumor_1195.jpg HTTP/1.1" 200 -
+2025-03-03 06:05:11,911 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:05:12,069 - __main__ - INFO - Model loaded in 0.16 seconds
+2025-03-03 06:05:12,069 - __main__ - INFO - Model Summary:
+2025-03-03 06:05:12,086 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:05:12,090 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:05:12,339 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:05:12,339 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:05:12,340 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:05:12,354 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 06:05:12,354 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 06:05:12,356 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 06:05:16,248 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:05:16,419 - __main__ - INFO - Model loaded in 0.17 seconds
+2025-03-03 06:05:16,420 - __main__ - INFO - Model Summary:
+2025-03-03 06:05:16,436 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:05:16,440 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:05:16,793 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:05:16,794 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:05:16,797 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:05:16,806 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 06:05:16,809 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 06:05:17,346 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:17] "GET / HTTP/1.1" 200 -
+2025-03-03 06:05:17,420 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:05:26,706 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:05:26,707 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:05:26,708 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:05:26,736 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:05:26,847 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:05:26,849 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:05:26,854 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:05:26,859 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 06:05:26,865 - __main__ - WARNING - No activation in heatmap even after lowering threshold
+2025-03-03 06:05:26,891 - __main__ - INFO - Enhanced focused heatmap created with info panel
+2025-03-03 06:05:26,900 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:05:26,901 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.20 seconds
+2025-03-03 06:05:26,902 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:05:26,903 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:26] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:05:26,935 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:05:26,957 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:26] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:05:26,958 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:26] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:05:56,776 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_2.jpg
+2025-03-03 06:05:56,776 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_2.jpg
+2025-03-03 06:05:56,777 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_2.jpg
+2025-03-03 06:05:56,799 - __main__ - INFO - Preprocessed image with original size (641, 557, 3), resized to (128, 128, 3)
+2025-03-03 06:05:56,909 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:05:56,910 - __main__ - INFO - Raw prediction probability: 0.0348
+2025-03-03 06:05:56,916 - __main__ - INFO - Processed Test_Tumor_2.jpg in 0.14 seconds
+2025-03-03 06:05:56,917 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-03-03 06:05:56,918 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:56] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:05:56,946 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:05:56,967 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:05:56] "GET /static/uploads/original_Test_Tumor_2.jpg HTTP/1.1" 200 -
+2025-03-03 06:06:08,628 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:06:08,629 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:06:08,629 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:06:08,650 - __main__ - INFO - Preprocessed image with original size (475, 401, 3), resized to (128, 128, 3)
+2025-03-03 06:06:08,752 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 06:06:08,754 - __main__ - INFO - Raw prediction probability: 0.9987
+2025-03-03 06:06:08,758 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:06:08,761 - __main__ - WARNING - No activation detected after thresholding. Lowering threshold.
+2025-03-03 06:06:08,763 - __main__ - WARNING - No activation in heatmap even after lowering threshold
+2025-03-03 06:06:08,774 - __main__ - INFO - Enhanced focused heatmap created with info panel
+2025-03-03 06:06:08,783 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:06:08,783 - __main__ - INFO - Processed Test_Tumor_5.jpg in 0.16 seconds
+2025-03-03 06:06:08,784 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:06:08,784 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:06:08] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:06:08,810 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:06:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:06:08,823 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:06:08] "GET /static/uploads/highlighted_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 06:06:08,828 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:06:08] "GET /static/uploads/original_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 06:11:19,131 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:11:19,341 - __main__ - INFO - Model loaded in 0.21 seconds
+2025-03-03 06:11:19,341 - __main__ - INFO - Model Summary:
+2025-03-03 06:11:19,366 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:11:19,373 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:11:19,738 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:11:19,738 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:11:19,739 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:11:19,761 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 06:11:19,762 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 06:11:19,764 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 06:11:23,782 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:11:23,964 - __main__ - INFO - Model loaded in 0.18 seconds
+2025-03-03 06:11:23,965 - __main__ - INFO - Model Summary:
+2025-03-03 06:11:23,990 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:11:24,010 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:11:24,568 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:11:24,568 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:11:24,569 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:11:24,586 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 06:11:24,591 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 06:11:25,664 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:25] "GET / HTTP/1.1" 200 -
+2025-03-03 06:11:25,860 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:11:33,390 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:11:33,390 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:11:33,391 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:11:33,441 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:11:33,554 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:11:33,554 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:11:33,566 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:11:33,570 - __main__ - INFO - Heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:11:33,595 - __main__ - WARNING - No sufficient activation detected with any threshold. Using minimum threshold.
+2025-03-03 06:11:33,597 - __main__ - WARNING - No activation in heatmap even after multiple thresholds
+2025-03-03 06:11:33,649 - __main__ - WARNING - No tumor detected even with low threshold 0.01
+2025-03-03 06:11:33,649 - __main__ - WARNING - No contours found in the tumor mask
+2025-03-03 06:11:33,654 - __main__ - INFO - Enhanced focused heatmap created with info panel
+2025-03-03 06:11:33,663 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:11:33,664 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.28 seconds
+2025-03-03 06:11:33,664 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:11:33,665 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:33] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:11:33,703 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:11:33,732 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:33] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:11:33,738 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:33] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:11:53,471 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_3.jpg
+2025-03-03 06:11:53,473 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_3.jpg
+2025-03-03 06:11:53,473 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_3.jpg
+2025-03-03 06:11:53,495 - __main__ - INFO - Preprocessed image with original size (256, 256, 3), resized to (128, 128, 3)
+2025-03-03 06:11:53,601 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:11:53,602 - __main__ - INFO - Raw prediction probability: 0.3965
+2025-03-03 06:11:53,604 - __main__ - INFO - Processed Test_Tumor_3.jpg in 0.13 seconds
+2025-03-03 06:11:53,605 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-03-03 06:11:53,606 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:53] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:11:53,630 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:11:53,647 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:11:53] "GET /static/uploads/original_Test_Tumor_3.jpg HTTP/1.1" 200 -
+2025-03-03 06:11:59,963 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:11:59,963 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:11:59,963 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:11:59,979 - __main__ - INFO - Preprocessed image with original size (475, 401, 3), resized to (128, 128, 3)
+2025-03-03 06:12:00,091 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:12:00,092 - __main__ - INFO - Raw prediction probability: 0.9987
+2025-03-03 06:12:00,096 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:12:00,098 - __main__ - INFO - Heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:12:00,107 - __main__ - WARNING - No sufficient activation detected with any threshold. Using minimum threshold.
+2025-03-03 06:12:00,109 - __main__ - WARNING - No activation in heatmap even after multiple thresholds
+2025-03-03 06:12:00,117 - __main__ - WARNING - No tumor detected even with low threshold 0.01
+2025-03-03 06:12:00,117 - __main__ - WARNING - No contours found in the tumor mask
+2025-03-03 06:12:00,118 - __main__ - INFO - Enhanced focused heatmap created with info panel
+2025-03-03 06:12:00,127 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:12:00,128 - __main__ - INFO - Processed Test_Tumor_5.jpg in 0.17 seconds
+2025-03-03 06:12:00,128 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:12:00,129 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:12:00] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:12:00,156 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:12:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:12:00,173 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:12:00] "GET /static/uploads/original_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 06:12:00,178 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:12:00] "GET /static/uploads/highlighted_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 06:16:15,129 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:16:15,285 - __main__ - INFO - Model loaded in 0.16 seconds
+2025-03-03 06:16:15,285 - __main__ - INFO - Model Summary:
+2025-03-03 06:16:15,305 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:16:15,309 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:16:15,588 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:16:15,588 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:16:15,589 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:16:15,608 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 06:16:15,608 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 06:16:15,610 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 06:16:19,619 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:16:19,781 - __main__ - INFO - Model loaded in 0.16 seconds
+2025-03-03 06:16:19,781 - __main__ - INFO - Model Summary:
+2025-03-03 06:16:19,803 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:16:19,807 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:16:20,105 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:16:20,106 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:16:20,107 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:16:20,114 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 06:16:20,116 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 06:16:20,679 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:16:20] "GET / HTTP/1.1" 200 -
+2025-03-03 06:16:20,796 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:16:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 06:16:21,452 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:16:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-03 06:16:29,528 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-03 06:16:29,529 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_1.jpg
+2025-03-03 06:16:29,529 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_1.jpg
+2025-03-03 06:16:29,563 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 06:16:29,663 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 06:16:29,664 - __main__ - INFO - Raw prediction probability: 0.9966
+2025-03-03 06:16:29,671 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:16:29,672 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:16:29,673 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:16:29,673 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:16:29,674 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:16:29,676 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:16:29,694 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:16:29,696 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 06:16:29,721 - __main__ - INFO - Tumor centroid: x=257.5, y=257.5
+2025-03-03 06:16:29,729 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:16:29,739 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:16:29,741 - __main__ - INFO - Processed Train_Tumor_1.jpg in 0.21 seconds
+2025-03-03 06:16:29,742 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:16:29,743 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:16:29] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:16:29,759 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:16:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:16:29,786 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:16:29] "GET /static/uploads/original_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:16:29,793 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:16:29] "GET /static/uploads/highlighted_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:17:08,903 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:17:08,904 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:17:08,904 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:17:08,924 - __main__ - INFO - Preprocessed image with original size (475, 401, 3), resized to (128, 128, 3)
+2025-03-03 06:17:09,030 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:17:09,031 - __main__ - INFO - Raw prediction probability: 0.9987
+2025-03-03 06:17:09,035 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:17:09,036 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:17:09,037 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:17:09,037 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:17:09,038 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:17:09,039 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:17:09,041 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:17:09,043 - __main__ - INFO - Activation pixels after thresholding: 8519
+2025-03-03 06:17:09,053 - __main__ - INFO - Tumor centroid: x=201.52834839769926, y=238.87803732832492
+2025-03-03 06:17:09,056 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:17:09,061 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:17:09,062 - __main__ - INFO - Processed Test_Tumor_5.jpg in 0.16 seconds
+2025-03-03 06:17:09,063 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:17:09,064 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:17:09] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:17:09,083 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:17:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:17:09,101 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:17:09] "GET /static/uploads/original_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 06:17:09,105 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:17:09] "GET /static/uploads/highlighted_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 06:21:22,519 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:21:22,679 - __main__ - INFO - Model loaded in 0.16 seconds
+2025-03-03 06:21:22,680 - __main__ - INFO - Model Summary:
+2025-03-03 06:21:22,699 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:21:22,703 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:21:22,952 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:21:22,952 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:21:22,953 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:21:22,973 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 06:21:22,973 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 06:21:22,975 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 06:21:26,791 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:21:26,966 - __main__ - INFO - Model loaded in 0.17 seconds
+2025-03-03 06:21:26,966 - __main__ - INFO - Model Summary:
+2025-03-03 06:21:26,990 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:21:26,998 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:21:27,273 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:21:27,274 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:21:27,276 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:21:27,284 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 06:21:27,286 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 06:21:27,774 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:21:27] "GET / HTTP/1.1" 200 -
+2025-03-03 06:21:27,898 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:21:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:21:36,023 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:21:36,024 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:21:36,024 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:21:36,051 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:21:36,157 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:21:36,158 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:21:36,167 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:21:36,168 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:21:36,169 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:21:36,169 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:21:36,170 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:21:36,171 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:21:36,177 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:21:36,181 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-03-03 06:21:36,210 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-03-03 06:21:36,213 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:21:36,221 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:21:36,222 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.20 seconds
+2025-03-03 06:21:36,223 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:21:36,224 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:21:36] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:21:36,245 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:21:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:21:36,269 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:21:36] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:21:36,269 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:21:36] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:30:48,742 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:30:48,893 - __main__ - INFO - Model loaded in 0.15 seconds
+2025-03-03 06:30:48,894 - __main__ - INFO - Model Summary:
+2025-03-03 06:30:48,910 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:30:48,917 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:30:49,201 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:30:49,202 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:30:49,203 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:30:49,218 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 06:30:49,218 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 06:30:49,220 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 06:30:52,944 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:30:53,124 - __main__ - INFO - Model loaded in 0.18 seconds
+2025-03-03 06:30:53,125 - __main__ - INFO - Model Summary:
+2025-03-03 06:30:53,149 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:30:53,154 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:30:53,414 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:30:53,415 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:30:53,416 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:30:53,423 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 06:30:53,425 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 06:31:21,791 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:31:21] "GET / HTTP/1.1" 200 -
+2025-03-03 06:31:21,876 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:31:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 06:31:49,898 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:31:49,898 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:31:49,899 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:31:49,951 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:31:50,065 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:31:50,066 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:31:50,084 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:31:50,085 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:31:50,089 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:31:50,090 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:31:50,091 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:31:50,094 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:31:50,114 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:31:50,117 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-03-03 06:31:50,169 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-03-03 06:31:50,175 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:31:50,183 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:31:50,184 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.29 seconds
+2025-03-03 06:31:50,185 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:31:50,187 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:31:50] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:31:50,202 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:31:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:31:50,227 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:31:50] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:31:50,232 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:31:50] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:37:32,390 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:37:32,392 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:37:32,392 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:37:32,420 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:37:32,538 - __main__ - INFO - Prediction completed in 0.12 seconds
+2025-03-03 06:37:32,539 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:37:32,543 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:37:32,543 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:37:32,544 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:37:32,545 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:37:32,546 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:37:32,547 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:37:32,552 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:37:32,556 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-03-03 06:37:32,588 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-03-03 06:37:32,590 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:37:32,599 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:37:32,599 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.21 seconds
+2025-03-03 06:37:32,600 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:37:32,669 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:37:32] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:37:32,706 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:37:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 06:37:32,714 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:37:32] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:37:32,716 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:37:32] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:37:37,480 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:37:37,481 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:37:37,481 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:37:37,505 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:37:37,621 - __main__ - INFO - Prediction completed in 0.12 seconds
+2025-03-03 06:37:37,622 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:37:37,631 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:37:37,632 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:37:37,633 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:37:37,633 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:37:37,634 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:37:37,634 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:37:37,638 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:37:37,641 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-03-03 06:37:37,667 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-03-03 06:37:37,670 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:37:37,678 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:37:37,679 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.20 seconds
+2025-03-03 06:37:37,680 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:37:37,682 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:37:37] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:37:37,700 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:37:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:37:37,724 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:37:37] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:37:37,724 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:37:37] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:38:10,238 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:38:10,425 - __main__ - INFO - Model loaded in 0.19 seconds
+2025-03-03 06:38:10,426 - __main__ - INFO - Model Summary:
+2025-03-03 06:38:10,442 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:38:10,451 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:38:10,725 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:38:10,726 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:38:10,727 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:38:10,744 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 06:38:10,744 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 06:38:10,746 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 06:38:14,866 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:38:15,059 - __main__ - INFO - Model loaded in 0.19 seconds
+2025-03-03 06:38:15,060 - __main__ - INFO - Model Summary:
+2025-03-03 06:38:15,097 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:38:15,104 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:38:15,411 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:38:15,412 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:38:15,414 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:38:15,420 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 06:38:15,422 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 06:38:15,828 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:38:15] "GET / HTTP/1.1" 200 -
+2025-03-03 06:38:15,891 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:38:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 06:39:11,901 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:39:11,902 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:39:11,903 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:39:11,930 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:39:12,039 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:39:12,040 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:39:12,046 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:39:12,047 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:39:12,047 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:39:12,048 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:39:12,048 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:39:12,049 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:39:12,054 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:39:12,057 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-03-03 06:39:12,087 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-03-03 06:39:12,089 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:39:12,099 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:39:12,101 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.20 seconds
+2025-03-03 06:39:12,101 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:39:12,103 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:39:12] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:39:12,123 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:39:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:39:12,150 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:39:12] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:39:12,153 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:39:12] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:52:39,002 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:52:39,003 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:52:39,005 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:52:39,039 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:52:39,232 - __main__ - INFO - Prediction completed in 0.19 seconds
+2025-03-03 06:52:39,233 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:52:39,242 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:52:39,243 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:52:39,244 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:52:39,245 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:52:39,245 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:52:39,247 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:52:39,254 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:52:39,257 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-03-03 06:52:39,278 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-03-03 06:52:39,280 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:52:39,288 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:52:39,290 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.29 seconds
+2025-03-03 06:52:39,290 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:52:39,294 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:52:39] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:52:39,324 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:52:39] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:52:39,324 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:52:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 06:52:39,327 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:52:39] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:52:45,743 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:52:45,743 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:52:45,744 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:52:45,766 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:52:45,877 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:52:45,878 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:52:45,888 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:52:45,889 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:52:45,889 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:52:45,890 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:52:45,890 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:52:45,890 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:52:45,894 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:52:45,895 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-03-03 06:52:45,915 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-03-03 06:52:45,919 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:52:45,928 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:52:45,929 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.19 seconds
+2025-03-03 06:52:45,930 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 06:52:45,932 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:52:45] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:52:45,947 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:52:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:52:45,966 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:52:45] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:52:45,968 - werkzeug - INFO - 127.0.0.1 - - [03/Mar/2025 06:52:45] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:53:13,592 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:53:13,775 - __main__ - INFO - Model loaded in 0.18 seconds
+2025-03-03 06:53:13,775 - __main__ - INFO - Model Summary:
+2025-03-03 06:53:13,791 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:53:13,796 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:53:14,109 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:53:14,110 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:53:14,112 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:53:14,134 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.112.40:5000
+2025-03-03 06:53:14,135 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 06:53:14,136 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 06:53:18,067 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 06:53:18,246 - __main__ - INFO - Model loaded in 0.18 seconds
+2025-03-03 06:53:18,246 - __main__ - INFO - Model Summary:
+2025-03-03 06:53:18,267 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 06:53:18,272 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 06:53:18,543 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 06:53:18,545 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 06:53:18,546 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 06:53:18,552 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 06:53:18,554 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 06:53:19,183 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:53:19] "GET / HTTP/1.1" 200 -
+2025-03-03 06:53:19,374 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:53:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 06:54:16,085 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:54:16] "GET / HTTP/1.1" 200 -
+2025-03-03 06:54:16,123 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:54:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 06:54:31,300 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:54:31] "GET / HTTP/1.1" 200 -
+2025-03-03 06:54:31,333 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:54:31] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 06:56:00,319 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:56:00,320 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:56:00,320 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-03-03 06:56:00,352 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-03-03 06:56:00,482 - __main__ - INFO - Prediction completed in 0.13 seconds
+2025-03-03 06:56:00,483 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-03-03 06:56:00,489 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:56:00,490 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:56:00,490 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:56:00,491 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:56:00,491 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:56:00,492 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:56:00,501 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:56:00,503 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-03-03 06:56:00,535 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-03-03 06:56:00,538 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:56:00,550 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:56:00,552 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.23 seconds
+2025-03-03 06:56:00,553 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_2.jpg
+2025-03-03 06:56:00,554 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_2.jpg
+2025-03-03 06:56:00,556 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_2.jpg
+2025-03-03 06:56:00,583 - __main__ - INFO - Preprocessed image with original size (641, 557, 3), resized to (128, 128, 3)
+2025-03-03 06:56:00,691 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:56:00,692 - __main__ - INFO - Raw prediction probability: 0.0348
+2025-03-03 06:56:00,702 - __main__ - INFO - Processed Test_Tumor_2.jpg in 0.15 seconds
+2025-03-03 06:56:00,704 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_3.jpg
+2025-03-03 06:56:00,704 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_3.jpg
+2025-03-03 06:56:00,705 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_3.jpg
+2025-03-03 06:56:00,724 - __main__ - INFO - Preprocessed image with original size (256, 256, 3), resized to (128, 128, 3)
+2025-03-03 06:56:00,822 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 06:56:00,823 - __main__ - INFO - Raw prediction probability: 0.3965
+2025-03-03 06:56:00,826 - __main__ - INFO - Processed Test_Tumor_3.jpg in 0.12 seconds
+2025-03-03 06:56:00,829 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_4.jpg
+2025-03-03 06:56:00,830 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_4.jpg
+2025-03-03 06:56:00,830 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_4.jpg
+2025-03-03 06:56:00,852 - __main__ - INFO - Preprocessed image with original size (349, 425, 3), resized to (128, 128, 3)
+2025-03-03 06:56:00,959 - __main__ - INFO - Prediction completed in 0.11 seconds
+2025-03-03 06:56:00,960 - __main__ - INFO - Raw prediction probability: 0.2449
+2025-03-03 06:56:00,964 - __main__ - INFO - Processed Test_Tumor_4.jpg in 0.14 seconds
+2025-03-03 06:56:00,967 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:56:00,967 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:56:00,968 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_5.jpg
+2025-03-03 06:56:00,982 - __main__ - INFO - Preprocessed image with original size (475, 401, 3), resized to (128, 128, 3)
+2025-03-03 06:56:01,087 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 06:56:01,087 - __main__ - INFO - Raw prediction probability: 0.9987
+2025-03-03 06:56:01,094 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 06:56:01,095 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 06:56:01,096 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 06:56:01,096 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 06:56:01,097 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 06:56:01,097 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 06:56:01,099 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 06:56:01,101 - __main__ - INFO - Activation pixels after thresholding: 8519
+2025-03-03 06:56:01,107 - __main__ - INFO - Tumor center: x=201, y=238, location=Middle Center
+2025-03-03 06:56:01,109 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 06:56:01,117 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 06:56:01,119 - __main__ - INFO - Processed Test_Tumor_5.jpg in 0.15 seconds
+2025-03-03 06:56:01,119 - __main__ - INFO - Completed processing 5 files. Valid: 5, Tumor positive: 2
+2025-03-03 06:56:01,120 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "POST /predict HTTP/1.1" 200 -
+2025-03-03 06:56:01,139 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 06:56:01,172 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "GET /static/uploads/original_Test_Tumor_4.jpg HTTP/1.1" 200 -
+2025-03-03 06:56:01,172 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "GET /static/uploads/original_Test_Tumor_3.jpg HTTP/1.1" 200 -
+2025-03-03 06:56:01,173 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "GET /static/uploads/original_Test_Tumor_2.jpg HTTP/1.1" 200 -
+2025-03-03 06:56:01,187 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "GET /static/uploads/original_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:56:01,193 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 06:56:01,196 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "GET /static/uploads/original_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 06:56:01,222 - werkzeug - INFO - 10.29.112.40 - - [03/Mar/2025 06:56:01] "GET /static/uploads/highlighted_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 13:06:42,855 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 13:06:43,618 - __main__ - INFO - Model loaded in 0.76 seconds
+2025-03-03 13:06:43,619 - __main__ - INFO - Model Summary:
+2025-03-03 13:06:43,774 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 13:06:43,793 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 13:06:45,934 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 13:06:45,935 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 13:06:45,939 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 13:06:46,024 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.87:5000
+2025-03-03 13:06:46,025 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 13:06:46,035 - werkzeug - INFO -  * Restarting with stat
+2025-03-03 13:06:59,825 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-03 13:07:00,422 - __main__ - INFO - Model loaded in 0.60 seconds
+2025-03-03 13:07:00,424 - __main__ - INFO - Model Summary:
+2025-03-03 13:07:00,488 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-03 13:07:00,504 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-03 13:07:01,363 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-03 13:07:01,364 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-03 13:07:01,367 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-03 13:07:01,389 - werkzeug - WARNING -  * Debugger is active!
+2025-03-03 13:07:01,395 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-03 13:07:05,446 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:07:05] "GET / HTTP/1.1" 200 -
+2025-03-03 13:07:06,023 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:07:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 13:07:07,395 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:07:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-03 13:12:53,153 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:12:53] "GET / HTTP/1.1" 200 -
+2025-03-03 13:12:53,215 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:12:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 13:13:55,727 - __main__ - INFO - Saved uploaded file to static/uploads/fozia_jan_1.jpg
+2025-03-03 13:13:55,741 - __main__ - INFO - Bypassing validation for static/uploads/fozia_jan_1.jpg
+2025-03-03 13:13:55,741 - __main__ - INFO - Processing image: static/uploads/fozia_jan_1.jpg
+2025-03-03 13:13:55,992 - __main__ - INFO - Preprocessed image with original size (1280, 969, 3), resized to (128, 128, 3)
+2025-03-03 13:13:56,414 - __main__ - INFO - Prediction completed in 0.42 seconds
+2025-03-03 13:13:56,414 - __main__ - INFO - Raw prediction probability: 0.9472
+2025-03-03 13:13:56,544 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:13:56,553 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:13:56,562 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:13:56,562 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:13:56,562 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:13:56,578 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:13:56,651 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:13:56,682 - __main__ - INFO - Activation pixels after thresholding: 55420
+2025-03-03 13:13:57,027 - __main__ - INFO - Tumor center: x=487, y=644, location=Middle Center
+2025-03-03 13:13:57,062 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:13:57,179 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:13:57,185 - __main__ - INFO - Processed fozia_jan_1.jpg in 1.46 seconds
+2025-03-03 13:13:57,185 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 13:13:57,193 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:13:57] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:13:57,262 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:13:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 13:13:57,311 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:13:57] "GET /static/uploads/original_fozia_jan_1.jpg HTTP/1.1" 200 -
+2025-03-03 13:13:57,323 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:13:57] "GET /static/uploads/highlighted_fozia_jan_1.jpg HTTP/1.1" 200 -
+2025-03-03 13:14:31,396 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:14:31,396 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:14:31,396 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:14:31,449 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:14:31,843 - __main__ - INFO - Prediction completed in 0.39 seconds
+2025-03-03 13:14:31,843 - __main__ - INFO - Raw prediction probability: 0.9966
+2025-03-03 13:14:31,863 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:14:31,863 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:14:31,863 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:14:31,876 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:14:31,876 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:14:31,876 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:14:31,894 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:14:31,907 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:14:31,960 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:14:31,968 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:14:31,993 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:14:31,996 - __main__ - INFO - Processed Train_Tumor_1.jpg in 0.60 seconds
+2025-03-03 13:14:31,996 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 13:14:31,996 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:14:31] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:14:32,074 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:14:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 13:14:32,112 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:14:32] "GET /static/uploads/original_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 13:14:32,120 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:14:32] "GET /static/uploads/highlighted_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 13:14:55,306 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:14:55,306 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:14:55,310 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:14:55,396 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:14:55,623 - __main__ - INFO - Prediction completed in 0.23 seconds
+2025-03-03 13:14:55,623 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 13:14:55,630 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:14:55,630 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:14:55,639 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:14:55,639 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:14:55,639 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:14:55,639 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:14:55,648 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:14:55,648 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:14:55,689 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:14:55,694 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:14:55,713 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:14:55,721 - __main__ - INFO - Processed Train_Tumor_5.jpg in 0.41 seconds
+2025-03-03 13:14:55,721 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 13:14:55,721 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:14:55] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:14:55,765 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:14:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 13:14:55,787 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:14:55] "GET /static/uploads/original_Train_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 13:14:55,794 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:14:55] "GET /static/uploads/highlighted_Train_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 13:25:53,105 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:25:53,106 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:25:53,107 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:25:53,137 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:25:53,241 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 13:25:53,241 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 13:25:53,257 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:25:53,257 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:25:53,259 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:25:53,259 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:25:53,259 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:25:53,259 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:25:53,259 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:25:53,264 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:25:53,277 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:25:53,282 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:25:53,291 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:25:53,291 - __main__ - INFO - Processed Train_Tumor_5.jpg in 0.19 seconds
+2025-03-03 13:25:53,291 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 13:25:53,411 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:25:53] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:25:53,448 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:25:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 13:25:53,461 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:25:53] "GET /static/uploads/highlighted_Train_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 13:26:04,720 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:26:04,722 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:26:04,722 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:26:04,750 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:26:05,008 - __main__ - INFO - Prediction completed in 0.26 seconds
+2025-03-03 13:26:05,010 - __main__ - INFO - Raw prediction probability: 0.9966
+2025-03-03 13:26:05,019 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:26:05,019 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:26:05,027 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:26:05,027 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:26:05,027 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:26:05,027 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:26:05,035 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:26:05,043 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:26:05,085 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:26:05,090 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:26:05,106 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:26:05,107 - __main__ - INFO - Processed Train_Tumor_1.jpg in 0.39 seconds
+2025-03-03 13:26:05,107 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 13:26:05,109 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:26:05] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:26:05,157 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:26:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 13:26:05,182 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:26:05] "GET /static/uploads/highlighted_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 13:29:53,083 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:29:53,083 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:29:53,083 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:29:53,102 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:29:53,210 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-03-03 13:29:53,210 - __main__ - INFO - Raw prediction probability: 0.9966
+2025-03-03 13:29:53,210 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:29:53,210 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:29:53,210 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:29:53,222 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:29:53,222 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:29:53,223 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:29:53,223 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:29:53,227 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:29:53,240 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:29:53,242 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:29:53,248 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:29:53,248 - __main__ - INFO - Processed Train_Tumor_1.jpg in 0.17 seconds
+2025-03-03 13:29:53,248 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 13:29:53,387 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:29:53] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:29:53,446 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:29:53] "GET /static/uploads/highlighted_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 13:29:53,448 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:29:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 13:37:36,144 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:37:36,144 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:37:36,144 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_1.jpg
+2025-03-03 13:37:36,211 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:37:36,339 - __main__ - INFO - Prediction completed in 0.13 seconds
+2025-03-03 13:37:36,339 - __main__ - INFO - Raw prediction probability: 0.9966
+2025-03-03 13:37:36,339 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:37:36,339 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:37:36,339 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:37:36,348 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:37:36,348 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:37:36,348 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:37:36,348 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:37:36,354 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:37:36,364 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:37:36,371 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:37:36,376 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:37:36,376 - __main__ - INFO - Processed Train_Tumor_1.jpg in 0.23 seconds
+2025-03-03 13:37:36,379 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-03 13:37:36,379 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:37:36] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:37:36,419 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:37:36] "GET /static/uploads/highlighted_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-03 13:37:36,428 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:37:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-03 13:38:05,140 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_4.jpg
+2025-03-03 13:38:05,140 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_4.jpg
+2025-03-03 13:38:05,140 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_4.jpg
+2025-03-03 13:38:05,181 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:38:05,477 - __main__ - INFO - Prediction completed in 0.30 seconds
+2025-03-03 13:38:05,478 - __main__ - INFO - Raw prediction probability: 0.9998
+2025-03-03 13:38:05,486 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:38:05,486 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:38:05,486 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:38:05,486 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:38:05,486 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:38:05,496 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:38:05,502 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:38:05,506 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:38:05,534 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:38:05,538 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:38:05,555 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:38:05,555 - __main__ - INFO - Processed Train_Tumor_4.jpg in 0.42 seconds
+2025-03-03 13:38:05,561 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:38:05,563 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:38:05,563 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_5.jpg
+2025-03-03 13:38:05,594 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:38:05,989 - __main__ - INFO - Prediction completed in 0.39 seconds
+2025-03-03 13:38:05,989 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 13:38:06,007 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:38:06,011 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:38:06,013 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:38:06,013 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:38:06,015 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:38:06,015 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:38:06,021 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:38:06,031 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:38:06,086 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:38:06,106 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:38:06,126 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:38:06,126 - __main__ - INFO - Processed Train_Tumor_5.jpg in 0.57 seconds
+2025-03-03 13:38:06,126 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_9.jpg
+2025-03-03 13:38:06,134 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_9.jpg
+2025-03-03 13:38:06,134 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_9.jpg
+2025-03-03 13:38:06,174 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:38:06,428 - __main__ - INFO - Prediction completed in 0.25 seconds
+2025-03-03 13:38:06,428 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 13:38:06,440 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:38:06,442 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:38:06,442 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:38:06,443 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:38:06,443 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:38:06,445 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:38:06,450 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:38:06,453 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:38:06,494 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:38:06,504 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:38:06,521 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:38:06,521 - __main__ - INFO - Processed Train_Tumor_9.jpg in 0.40 seconds
+2025-03-03 13:38:06,527 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_10.jpg
+2025-03-03 13:38:06,527 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_10.jpg
+2025-03-03 13:38:06,527 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_10.jpg
+2025-03-03 13:38:06,553 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:38:06,771 - __main__ - INFO - Prediction completed in 0.22 seconds
+2025-03-03 13:38:06,771 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 13:38:06,785 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:38:06,786 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:38:06,786 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:38:06,786 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:38:06,786 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:38:06,786 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:38:06,793 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:38:06,793 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:38:06,853 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:38:06,858 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:38:06,886 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:38:06,888 - __main__ - INFO - Processed Train_Tumor_10.jpg in 0.36 seconds
+2025-03-03 13:38:06,888 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_14.jpg
+2025-03-03 13:38:06,896 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_14.jpg
+2025-03-03 13:38:06,896 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_14.jpg
+2025-03-03 13:38:06,928 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:38:07,172 - __main__ - INFO - Prediction completed in 0.24 seconds
+2025-03-03 13:38:07,172 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 13:38:07,189 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:38:07,191 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:38:07,191 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:38:07,191 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:38:07,191 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:38:07,191 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:38:07,201 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:38:07,206 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:38:07,239 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:38:07,254 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:38:07,270 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:38:07,270 - __main__ - INFO - Processed Train_Tumor_14.jpg in 0.38 seconds
+2025-03-03 13:38:07,270 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_15.jpg
+2025-03-03 13:38:07,270 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_15.jpg
+2025-03-03 13:38:07,277 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_15.jpg
+2025-03-03 13:38:07,303 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:38:07,533 - __main__ - INFO - Prediction completed in 0.23 seconds
+2025-03-03 13:38:07,535 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 13:38:07,547 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:38:07,549 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:38:07,549 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:38:07,551 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:38:07,553 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:38:07,555 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:38:07,564 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:38:07,569 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:38:07,622 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:38:07,637 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:38:07,653 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:38:07,655 - __main__ - INFO - Processed Train_Tumor_15.jpg in 0.39 seconds
+2025-03-03 13:38:07,655 - __main__ - INFO - Completed processing 6 files. Valid: 6, Tumor positive: 6
+2025-03-03 13:38:07,661 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:38:07] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:38:07,722 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:38:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 13:38:07,756 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:38:07] "GET /static/uploads/highlighted_Train_Tumor_4.jpg HTTP/1.1" 200 -
+2025-03-03 13:38:07,764 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:38:07] "GET /static/uploads/highlighted_Train_Tumor_5.jpg HTTP/1.1" 200 -
+2025-03-03 13:38:07,767 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:38:07] "GET /static/uploads/highlighted_Train_Tumor_10.jpg HTTP/1.1" 200 -
+2025-03-03 13:38:07,771 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:38:07] "GET /static/uploads/highlighted_Train_Tumor_9.jpg HTTP/1.1" 200 -
+2025-03-03 13:38:07,775 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:38:07] "GET /static/uploads/highlighted_Train_Tumor_14.jpg HTTP/1.1" 200 -
+2025-03-03 13:38:07,777 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:38:07] "GET /static/uploads/highlighted_Train_Tumor_15.jpg HTTP/1.1" 200 -
+2025-03-03 13:39:03,287 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_24.jpg
+2025-03-03 13:39:03,287 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_24.jpg
+2025-03-03 13:39:03,287 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_24.jpg
+2025-03-03 13:39:03,320 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:39:03,640 - __main__ - INFO - Prediction completed in 0.32 seconds
+2025-03-03 13:39:03,643 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-03 13:39:03,657 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:39:03,657 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:39:03,657 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:39:03,657 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:39:03,657 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:39:03,662 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:39:03,666 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:39:03,671 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:39:03,698 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:39:03,703 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:39:03,718 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:39:03,718 - __main__ - INFO - Processed Train_Tumor_24.jpg in 0.43 seconds
+2025-03-03 13:39:03,722 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_104.jpg
+2025-03-03 13:39:03,722 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_104.jpg
+2025-03-03 13:39:03,722 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_104.jpg
+2025-03-03 13:39:03,747 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:39:03,990 - __main__ - INFO - Prediction completed in 0.24 seconds
+2025-03-03 13:39:03,993 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 13:39:04,060 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:39:04,062 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:39:04,064 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:39:04,064 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:39:04,066 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:39:04,069 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:39:04,076 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:39:04,080 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:39:04,134 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:39:04,140 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:39:04,165 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:39:04,165 - __main__ - INFO - Processed Train_Tumor_104.jpg in 0.45 seconds
+2025-03-03 13:39:04,170 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_123.jpg
+2025-03-03 13:39:04,170 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_123.jpg
+2025-03-03 13:39:04,178 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_123.jpg
+2025-03-03 13:39:04,222 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:39:04,492 - __main__ - INFO - Prediction completed in 0.27 seconds
+2025-03-03 13:39:04,492 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 13:39:04,519 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:39:04,522 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:39:04,525 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:39:04,525 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:39:04,525 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:39:04,525 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:39:04,533 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:39:04,540 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:39:04,573 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:39:04,586 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:39:04,605 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:39:04,605 - __main__ - INFO - Processed Train_Tumor_123.jpg in 0.44 seconds
+2025-03-03 13:39:04,617 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_130.jpg
+2025-03-03 13:39:04,619 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_130.jpg
+2025-03-03 13:39:04,621 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_130.jpg
+2025-03-03 13:39:04,654 - __main__ - INFO - Preprocessed image with original size (502, 502, 3), resized to (128, 128, 3)
+2025-03-03 13:39:04,936 - __main__ - INFO - Prediction completed in 0.28 seconds
+2025-03-03 13:39:04,937 - __main__ - INFO - Raw prediction probability: 0.7947
+2025-03-03 13:39:04,949 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:39:04,953 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:39:04,956 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:39:04,956 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:39:04,958 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:39:04,960 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:39:04,961 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:39:04,970 - __main__ - INFO - Activation pixels after thresholding: 11268
+2025-03-03 13:39:04,993 - __main__ - INFO - Tumor center: x=252, y=252, location=Middle Center
+2025-03-03 13:39:04,993 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:39:05,015 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:39:05,019 - __main__ - INFO - Processed Train_Tumor_130.jpg in 0.41 seconds
+2025-03-03 13:39:05,025 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_250.jpg
+2025-03-03 13:39:05,025 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_250.jpg
+2025-03-03 13:39:05,025 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_250.jpg
+2025-03-03 13:39:05,053 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-03 13:39:05,308 - __main__ - INFO - Prediction completed in 0.25 seconds
+2025-03-03 13:39:05,308 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-03 13:39:05,324 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-03 13:39:05,324 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-03 13:39:05,333 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-03 13:39:05,334 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-03 13:39:05,336 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-03 13:39:05,338 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-03 13:39:05,340 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-03 13:39:05,348 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-03 13:39:05,432 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-03 13:39:05,446 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-03 13:39:05,472 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-03 13:39:05,476 - __main__ - INFO - Processed Train_Tumor_250.jpg in 0.46 seconds
+2025-03-03 13:39:05,478 - __main__ - INFO - Completed processing 5 files. Valid: 5, Tumor positive: 5
+2025-03-03 13:39:05,482 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:39:05] "POST /predict HTTP/1.1" 200 -
+2025-03-03 13:39:05,533 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:39:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-03 13:39:05,560 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:39:05] "GET /static/uploads/highlighted_Train_Tumor_24.jpg HTTP/1.1" 200 -
+2025-03-03 13:39:05,560 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:39:05] "GET /static/uploads/highlighted_Train_Tumor_104.jpg HTTP/1.1" 200 -
+2025-03-03 13:39:05,565 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:39:05] "GET /static/uploads/highlighted_Train_Tumor_130.jpg HTTP/1.1" 200 -
+2025-03-03 13:39:05,569 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:39:05] "GET /static/uploads/highlighted_Train_Tumor_123.jpg HTTP/1.1" 200 -
+2025-03-03 13:39:05,577 - werkzeug - INFO - 10.29.28.87 - - [03/Mar/2025 13:39:05] "GET /static/uploads/highlighted_Train_Tumor_250.jpg HTTP/1.1" 200 -
+2025-03-04 00:50:35,903 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-04 00:50:36,153 - __main__ - INFO - Model loaded in 0.25 seconds
+2025-03-04 00:50:36,154 - __main__ - INFO - Model Summary:
+2025-03-04 00:50:36,238 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-04 00:50:36,243 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-04 00:50:36,819 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-04 00:50:36,819 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-04 00:50:36,819 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-04 00:50:36,871 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.27:5000
+2025-03-04 00:50:36,871 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 00:50:36,873 - werkzeug - INFO -  * Restarting with stat
+2025-03-04 00:50:41,455 - __main__ - INFO - Loading model from best_model11.keras
+2025-03-04 00:50:41,627 - __main__ - INFO - Model loaded in 0.17 seconds
+2025-03-04 00:50:41,627 - __main__ - INFO - Model Summary:
+2025-03-04 00:50:41,656 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-03-04 00:50:41,662 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-03-04 00:50:41,957 - __main__ - INFO - Model successfully initialized with dummy input
+2025-03-04 00:50:41,958 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-03-04 00:50:41,958 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-03-04 00:50:41,965 - werkzeug - WARNING -  * Debugger is active!
+2025-03-04 00:50:41,965 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-03-04 00:50:43,617 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:50:43] "GET / HTTP/1.1" 200 -
+2025-03-04 00:50:43,780 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:50:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-04 00:50:44,654 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:50:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-04 00:50:57,973 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_1.jpg
+2025-03-04 00:50:57,973 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_1.jpg
+2025-03-04 00:50:57,973 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_1.jpg
+2025-03-04 00:50:58,007 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-04 00:50:58,141 - __main__ - INFO - Prediction completed in 0.13 seconds
+2025-03-04 00:50:58,141 - __main__ - INFO - Raw prediction probability: 0.9966
+2025-03-04 00:50:58,142 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-04 00:50:58,142 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-04 00:50:58,142 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-04 00:50:58,142 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-04 00:50:58,142 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-04 00:50:58,142 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-04 00:50:58,158 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-04 00:50:58,162 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-04 00:50:58,189 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-04 00:50:58,192 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-04 00:50:58,204 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-04 00:50:58,208 - __main__ - INFO - Processed Train_Tumor_1.jpg in 0.23 seconds
+2025-03-04 00:50:58,208 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-03-04 00:50:58,208 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:50:58] "POST /predict HTTP/1.1" 200 -
+2025-03-04 00:50:58,249 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:50:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-04 00:50:58,275 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:50:58] "GET /static/uploads/highlighted_Train_Tumor_1.jpg HTTP/1.1" 200 -
+2025-03-04 00:51:21,754 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_88.jpg
+2025-03-04 00:51:21,754 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_88.jpg
+2025-03-04 00:51:21,754 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_88.jpg
+2025-03-04 00:51:21,789 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-04 00:51:22,033 - __main__ - INFO - Prediction completed in 0.24 seconds
+2025-03-04 00:51:22,033 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-04 00:51:22,043 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-04 00:51:22,045 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-04 00:51:22,047 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-04 00:51:22,048 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-04 00:51:22,048 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-04 00:51:22,050 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-04 00:51:22,056 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-04 00:51:22,061 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-04 00:51:22,104 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-04 00:51:22,110 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-04 00:51:22,135 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-04 00:51:22,135 - __main__ - INFO - Processed Train_Tumor_88.jpg in 0.38 seconds
+2025-03-04 00:51:22,138 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_89.jpg
+2025-03-04 00:51:22,138 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_89.jpg
+2025-03-04 00:51:22,138 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_89.jpg
+2025-03-04 00:51:22,176 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-04 00:51:22,403 - __main__ - INFO - Prediction completed in 0.22 seconds
+2025-03-04 00:51:22,403 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-03-04 00:51:22,423 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-04 00:51:22,423 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-04 00:51:22,423 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-04 00:51:22,423 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-04 00:51:22,423 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-04 00:51:22,433 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-04 00:51:22,437 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-04 00:51:22,443 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-04 00:51:22,478 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-04 00:51:22,483 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-04 00:51:22,498 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-04 00:51:22,500 - __main__ - INFO - Processed Train_Tumor_89.jpg in 0.36 seconds
+2025-03-04 00:51:22,502 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_90.jpg
+2025-03-04 00:51:22,503 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_90.jpg
+2025-03-04 00:51:22,504 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_90.jpg
+2025-03-04 00:51:22,598 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-04 00:51:22,793 - __main__ - INFO - Prediction completed in 0.20 seconds
+2025-03-04 00:51:22,795 - __main__ - INFO - Raw prediction probability: 0.9991
+2025-03-04 00:51:22,821 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-04 00:51:22,831 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-04 00:51:22,834 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-04 00:51:22,834 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-04 00:51:22,834 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-04 00:51:22,837 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-04 00:51:22,840 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-04 00:51:22,848 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-04 00:51:22,881 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-04 00:51:22,888 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-04 00:51:22,904 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-04 00:51:22,906 - __main__ - INFO - Processed Train_Tumor_90.jpg in 0.40 seconds
+2025-03-04 00:51:22,910 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_93.jpg
+2025-03-04 00:51:22,914 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_93.jpg
+2025-03-04 00:51:22,914 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_93.jpg
+2025-03-04 00:51:22,946 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-04 00:51:23,240 - __main__ - INFO - Prediction completed in 0.29 seconds
+2025-03-04 00:51:23,240 - __main__ - INFO - Raw prediction probability: 0.9967
+2025-03-04 00:51:23,248 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-04 00:51:23,248 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-04 00:51:23,254 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-04 00:51:23,254 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-04 00:51:23,256 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-04 00:51:23,256 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-04 00:51:23,265 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-04 00:51:23,265 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-04 00:51:23,313 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-04 00:51:23,313 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-04 00:51:23,335 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-04 00:51:23,335 - __main__ - INFO - Processed Train_Tumor_93.jpg in 0.43 seconds
+2025-03-04 00:51:23,339 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_94.jpg
+2025-03-04 00:51:23,339 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_94.jpg
+2025-03-04 00:51:23,341 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_94.jpg
+2025-03-04 00:51:23,355 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-04 00:51:23,589 - __main__ - INFO - Prediction completed in 0.23 seconds
+2025-03-04 00:51:23,589 - __main__ - INFO - Raw prediction probability: 0.9814
+2025-03-04 00:51:23,604 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-04 00:51:23,604 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-04 00:51:23,604 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-04 00:51:23,604 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-04 00:51:23,614 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-04 00:51:23,615 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-04 00:51:23,622 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-04 00:51:23,622 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-04 00:51:23,662 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-04 00:51:23,662 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-04 00:51:23,686 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-04 00:51:23,687 - __main__ - INFO - Processed Train_Tumor_94.jpg in 0.35 seconds
+2025-03-04 00:51:23,689 - __main__ - INFO - Saved uploaded file to static/uploads/Train_Tumor_95.jpg
+2025-03-04 00:51:23,689 - __main__ - INFO - Bypassing validation for static/uploads/Train_Tumor_95.jpg
+2025-03-04 00:51:23,689 - __main__ - INFO - Processing image: static/uploads/Train_Tumor_95.jpg
+2025-03-04 00:51:23,719 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-03-04 00:51:23,930 - __main__ - INFO - Prediction completed in 0.21 seconds
+2025-03-04 00:51:23,930 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-03-04 00:51:23,937 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-03-04 00:51:23,946 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-03-04 00:51:23,946 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-03-04 00:51:23,946 - __main__ - INFO - Number of non-zero elements: 0
+2025-03-04 00:51:23,946 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-03-04 00:51:23,946 - __main__ - INFO - Using dummy heatmap for visualization
+2025-03-04 00:51:23,957 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-03-04 00:51:23,957 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-03-04 00:51:23,990 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-03-04 00:51:24,002 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-03-04 00:51:24,021 - __main__ - INFO - Determined tumor location: Top Left
+2025-03-04 00:51:24,027 - __main__ - INFO - Processed Train_Tumor_95.jpg in 0.34 seconds
+2025-03-04 00:51:24,027 - __main__ - INFO - Completed processing 6 files. Valid: 6, Tumor positive: 6
+2025-03-04 00:51:24,027 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:51:24] "POST /predict HTTP/1.1" 200 -
+2025-03-04 00:51:24,082 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:51:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-04 00:51:24,113 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:51:24] "GET /static/uploads/highlighted_Train_Tumor_89.jpg HTTP/1.1" 200 -
+2025-03-04 00:51:24,117 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:51:24] "GET /static/uploads/highlighted_Train_Tumor_88.jpg HTTP/1.1" 200 -
+2025-03-04 00:51:24,121 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:51:24] "GET /static/uploads/highlighted_Train_Tumor_90.jpg HTTP/1.1" 200 -
+2025-03-04 00:51:24,125 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:51:24] "GET /static/uploads/highlighted_Train_Tumor_93.jpg HTTP/1.1" 200 -
+2025-03-04 00:51:24,127 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:51:24] "GET /static/uploads/highlighted_Train_Tumor_94.jpg HTTP/1.1" 200 -
+2025-03-04 00:51:24,138 - werkzeug - INFO - 10.29.28.27 - - [04/Mar/2025 00:51:24] "GET /static/uploads/highlighted_Train_Tumor_95.jpg HTTP/1.1" 200 -
+2025-04-16 10:41:55,385 - __main__ - INFO - Loading model from best_model11.keras
+2025-04-16 10:41:55,692 - __main__ - INFO - Model loaded in 0.31 seconds
+2025-04-16 10:41:55,692 - __main__ - INFO - Model Summary:
+2025-04-16 10:41:55,786 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-04-16 10:41:55,792 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-04-16 10:41:56,606 - __main__ - INFO - Model successfully initialized with dummy input
+2025-04-16 10:41:56,606 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-04-16 10:41:56,607 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-04-16 10:41:56,644 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.80:5000
+2025-04-16 10:41:56,644 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 10:41:56,646 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 10:42:00,478 - __main__ - INFO - Loading model from best_model11.keras
+2025-04-16 10:42:00,650 - __main__ - INFO - Model loaded in 0.17 seconds
+2025-04-16 10:42:00,650 - __main__ - INFO - Model Summary:
+2025-04-16 10:42:00,663 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-04-16 10:42:00,668 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-04-16 10:42:00,919 - __main__ - INFO - Model successfully initialized with dummy input
+2025-04-16 10:42:00,920 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-04-16 10:42:00,921 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-04-16 10:42:00,939 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 10:42:00,943 - werkzeug - INFO -  * Debugger PIN: 125-807-044
