@@ -1782,3 +1782,1121 @@
 2025-04-16 10:42:00,921 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
 2025-04-16 10:42:00,939 - werkzeug - WARNING -  * Debugger is active!
 2025-04-16 10:42:00,943 - werkzeug - INFO -  * Debugger PIN: 125-807-044
+2025-04-30 09:34:10,619 - __main__ - INFO - Loading model from best_model11.keras
+2025-04-30 09:34:10,943 - __main__ - INFO - Model loaded in 0.32 seconds
+2025-04-30 09:34:10,943 - __main__ - INFO - Model Summary:
+2025-04-30 09:34:11,009 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-04-30 09:34:11,013 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-04-30 09:34:11,823 - __main__ - INFO - Model successfully initialized with dummy input
+2025-04-30 09:34:11,824 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-04-30 09:34:11,824 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-04-30 09:34:11,856 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.88:5000
+2025-04-30 09:34:11,858 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-30 09:34:11,859 - werkzeug - INFO -  * Restarting with stat
+2025-04-30 09:34:16,266 - __main__ - INFO - Loading model from best_model11.keras
+2025-04-30 09:34:17,327 - __main__ - INFO - Model loaded in 1.06 seconds
+2025-04-30 09:34:17,327 - __main__ - INFO - Model Summary:
+2025-04-30 09:34:17,378 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-04-30 09:34:17,391 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-04-30 09:34:17,961 - __main__ - INFO - Model successfully initialized with dummy input
+2025-04-30 09:34:17,962 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-04-30 09:34:17,963 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-04-30 09:34:17,974 - werkzeug - WARNING -  * Debugger is active!
+2025-04-30 09:34:17,977 - werkzeug - INFO -  * Debugger PIN: 125-807-044
+2025-04-30 09:34:20,937 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:34:20] "GET / HTTP/1.1" 200 -
+2025-04-30 09:34:21,089 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:34:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-30 09:35:01,316 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:35:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-30 09:35:42,792 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_1.jpg
+2025-04-30 09:35:42,798 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_1.jpg
+2025-04-30 09:35:42,798 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_1.jpg
+2025-04-30 09:35:42,838 - __main__ - INFO - Preprocessed image with original size (236, 236, 3), resized to (128, 128, 3)
+2025-04-30 09:35:42,957 - __main__ - INFO - Prediction completed in 0.12 seconds
+2025-04-30 09:35:42,957 - __main__ - INFO - Raw prediction probability: 0.0078
+2025-04-30 09:35:42,973 - __main__ - INFO - Processed Test_No_Tumor_1.jpg in 0.18 seconds
+2025-04-30 09:35:42,973 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_2.jpg
+2025-04-30 09:35:42,973 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_2.jpg
+2025-04-30 09:35:42,973 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_2.jpg
+2025-04-30 09:35:42,990 - __main__ - INFO - Preprocessed image with original size (218, 236, 3), resized to (128, 128, 3)
+2025-04-30 09:35:43,088 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-04-30 09:35:43,088 - __main__ - INFO - Raw prediction probability: 0.0030
+2025-04-30 09:35:43,088 - __main__ - INFO - Processed Test_No_Tumor_2.jpg in 0.12 seconds
+2025-04-30 09:35:43,104 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_3.jpg
+2025-04-30 09:35:43,105 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_3.jpg
+2025-04-30 09:35:43,105 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_3.jpg
+2025-04-30 09:35:43,116 - __main__ - INFO - Preprocessed image with original size (295, 236, 3), resized to (128, 128, 3)
+2025-04-30 09:35:43,220 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-04-30 09:35:43,221 - __main__ - INFO - Raw prediction probability: 0.2115
+2025-04-30 09:35:43,221 - __main__ - INFO - Processed Test_No_Tumor_3.jpg in 0.12 seconds
+2025-04-30 09:35:43,221 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_4.jpg
+2025-04-30 09:35:43,221 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_4.jpg
+2025-04-30 09:35:43,221 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_4.jpg
+2025-04-30 09:35:43,236 - __main__ - INFO - Preprocessed image with original size (236, 236, 3), resized to (128, 128, 3)
+2025-04-30 09:35:43,339 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-04-30 09:35:43,339 - __main__ - INFO - Raw prediction probability: 0.0002
+2025-04-30 09:35:43,339 - __main__ - INFO - Processed Test_No_Tumor_4.jpg in 0.12 seconds
+2025-04-30 09:35:43,341 - __main__ - INFO - Completed processing 4 files. Valid: 4, Tumor positive: 0
+2025-04-30 09:35:43,341 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:35:43] "POST /predict HTTP/1.1" 200 -
+2025-04-30 09:35:43,378 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:35:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-30 09:35:43,412 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:35:43] "GET /static/uploads/original_Test_No_Tumor_1.jpg HTTP/1.1" 200 -
+2025-04-30 09:35:43,413 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:35:43] "GET /static/uploads/original_Test_No_Tumor_3.jpg HTTP/1.1" 200 -
+2025-04-30 09:35:43,413 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:35:43] "GET /static/uploads/original_Test_No_Tumor_2.jpg HTTP/1.1" 200 -
+2025-04-30 09:35:43,425 - werkzeug - INFO - 127.0.0.1 - - [30/Apr/2025 09:35:43] "GET /static/uploads/original_Test_No_Tumor_4.jpg HTTP/1.1" 200 -
+2025-08-04 00:36:26,133 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 00:36:26,772 - __main__ - INFO - Model loaded in 0.63 seconds
+2025-08-04 00:36:26,772 - __main__ - INFO - Model Summary:
+2025-08-04 00:36:27,012 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 00:36:27,018 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 00:36:28,726 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 00:36:28,726 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-08-04 00:36:28,726 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 00:36:28,801 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.23:5000
+2025-08-04 00:36:28,801 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 00:36:28,801 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 00:36:37,280 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 00:36:37,664 - __main__ - INFO - Model loaded in 0.38 seconds
+2025-08-04 00:36:37,664 - __main__ - INFO - Model Summary:
+2025-08-04 00:36:37,682 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 00:36:37,697 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 00:36:38,202 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 00:36:38,202 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-08-04 00:36:38,210 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 00:36:38,218 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 00:36:38,224 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-08-04 00:45:52,841 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 00:45:53,330 - __main__ - INFO - Model loaded in 0.49 seconds
+2025-08-04 00:45:53,330 - __main__ - INFO - Model Summary:
+2025-08-04 00:45:53,379 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 00:45:53,386 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 00:45:54,760 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 00:45:54,760 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-08-04 00:45:54,760 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 00:45:54,831 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.23:5000
+2025-08-04 00:45:54,831 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 00:45:54,836 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 00:46:02,558 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 00:46:02,881 - __main__ - INFO - Model loaded in 0.32 seconds
+2025-08-04 00:46:02,881 - __main__ - INFO - Model Summary:
+2025-08-04 00:46:02,913 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 00:46:02,914 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 00:46:03,420 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 00:46:03,426 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-08-04 00:46:03,426 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 00:46:03,435 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 00:46:03,435 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-08-04 00:46:33,138 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 00:46:33] "GET / HTTP/1.1" 200 -
+2025-08-04 00:46:33,448 - werkzeug - INFO - 127.0.0.1 - - [04/Aug/2025 00:46:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-04 00:46:58,469 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:46:58] "GET / HTTP/1.1" 200 -
+2025-08-04 00:46:58,519 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:46:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-04 00:47:01,097 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:47:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 00:47:47,091 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 00:47:47,091 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 00:47:47,091 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 00:47:47,166 - __main__ - INFO - Preprocessed image with original size (236, 236, 3), resized to (128, 128, 3)
+2025-08-04 00:47:47,461 - __main__ - INFO - Prediction completed in 0.29 seconds
+2025-08-04 00:47:47,468 - __main__ - INFO - Raw prediction probability: 0.0078
+2025-08-04 00:47:47,484 - __main__ - INFO - Processed Test_No_Tumor_1.jpg in 0.40 seconds
+2025-08-04 00:47:47,484 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_2.jpg
+2025-08-04 00:47:47,484 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_2.jpg
+2025-08-04 00:47:47,493 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_2.jpg
+2025-08-04 00:47:47,525 - __main__ - INFO - Preprocessed image with original size (218, 236, 3), resized to (128, 128, 3)
+2025-08-04 00:47:47,817 - __main__ - INFO - Prediction completed in 0.29 seconds
+2025-08-04 00:47:47,817 - __main__ - INFO - Raw prediction probability: 0.0030
+2025-08-04 00:47:47,824 - __main__ - INFO - Processed Test_No_Tumor_2.jpg in 0.34 seconds
+2025-08-04 00:47:47,830 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_3.jpg
+2025-08-04 00:47:47,834 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_3.jpg
+2025-08-04 00:47:47,836 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_3.jpg
+2025-08-04 00:47:47,885 - __main__ - INFO - Preprocessed image with original size (295, 236, 3), resized to (128, 128, 3)
+2025-08-04 00:47:48,185 - __main__ - INFO - Prediction completed in 0.30 seconds
+2025-08-04 00:47:48,185 - __main__ - INFO - Raw prediction probability: 0.2115
+2025-08-04 00:47:48,185 - __main__ - INFO - Processed Test_No_Tumor_3.jpg in 0.36 seconds
+2025-08-04 00:47:48,198 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_4.jpg
+2025-08-04 00:47:48,200 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_4.jpg
+2025-08-04 00:47:48,200 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_4.jpg
+2025-08-04 00:47:48,238 - __main__ - INFO - Preprocessed image with original size (236, 236, 3), resized to (128, 128, 3)
+2025-08-04 00:47:48,569 - __main__ - INFO - Prediction completed in 0.33 seconds
+2025-08-04 00:47:48,569 - __main__ - INFO - Raw prediction probability: 0.0002
+2025-08-04 00:47:48,575 - __main__ - INFO - Processed Test_No_Tumor_4.jpg in 0.39 seconds
+2025-08-04 00:47:48,575 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_5.jpg
+2025-08-04 00:47:48,575 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_5.jpg
+2025-08-04 00:47:48,575 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_5.jpg
+2025-08-04 00:47:48,607 - __main__ - INFO - Preprocessed image with original size (280, 236, 3), resized to (128, 128, 3)
+2025-08-04 00:47:48,903 - __main__ - INFO - Prediction completed in 0.30 seconds
+2025-08-04 00:47:48,903 - __main__ - INFO - Raw prediction probability: 0.0002
+2025-08-04 00:47:48,903 - __main__ - INFO - Processed Test_No_Tumor_5.jpg in 0.33 seconds
+2025-08-04 00:47:48,903 - __main__ - INFO - Completed processing 5 files. Valid: 5, Tumor positive: 0
+2025-08-04 00:47:48,913 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:47:48] "POST /predict HTTP/1.1" 200 -
+2025-08-04 00:47:48,962 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:47:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 00:47:49,012 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:47:49] "GET /static/uploads/original_Test_No_Tumor_2.jpg HTTP/1.1" 200 -
+2025-08-04 00:47:49,013 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:47:49] "GET /static/uploads/original_Test_No_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-04 00:47:49,015 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:47:49] "GET /static/uploads/original_Test_No_Tumor_3.jpg HTTP/1.1" 200 -
+2025-08-04 00:47:49,028 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:47:49] "GET /static/uploads/original_Test_No_Tumor_5.jpg HTTP/1.1" 200 -
+2025-08-04 00:47:49,034 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:47:49] "GET /static/uploads/original_Test_No_Tumor_4.jpg HTTP/1.1" 200 -
+2025-08-04 00:48:13,086 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-08-04 00:48:13,086 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-08-04 00:48:13,092 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-08-04 00:48:13,151 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-04 00:48:13,369 - __main__ - INFO - Prediction completed in 0.22 seconds
+2025-08-04 00:48:13,369 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-04 00:48:13,383 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 00:48:13,386 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 00:48:13,452 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 00:48:13,455 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 00:48:13,455 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 00:48:13,463 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 00:48:13,502 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 00:48:13,512 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-08-04 00:48:13,611 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-08-04 00:48:13,625 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 00:48:13,651 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 00:48:13,655 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.57 seconds
+2025-08-04 00:48:13,658 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_2.jpg
+2025-08-04 00:48:13,664 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_2.jpg
+2025-08-04 00:48:13,664 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_2.jpg
+2025-08-04 00:48:13,727 - __main__ - INFO - Preprocessed image with original size (641, 557, 3), resized to (128, 128, 3)
+2025-08-04 00:48:14,019 - __main__ - INFO - Prediction completed in 0.29 seconds
+2025-08-04 00:48:14,019 - __main__ - INFO - Raw prediction probability: 0.0348
+2025-08-04 00:48:14,042 - __main__ - INFO - Processed Test_Tumor_2.jpg in 0.39 seconds
+2025-08-04 00:48:14,048 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_3.jpg
+2025-08-04 00:48:14,048 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_3.jpg
+2025-08-04 00:48:14,048 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_3.jpg
+2025-08-04 00:48:14,122 - __main__ - INFO - Preprocessed image with original size (256, 256, 3), resized to (128, 128, 3)
+2025-08-04 00:48:14,333 - __main__ - INFO - Prediction completed in 0.21 seconds
+2025-08-04 00:48:14,344 - __main__ - INFO - Raw prediction probability: 0.3965
+2025-08-04 00:48:14,352 - __main__ - INFO - Processed Test_Tumor_3.jpg in 0.31 seconds
+2025-08-04 00:48:14,352 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_4.jpg
+2025-08-04 00:48:14,352 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_4.jpg
+2025-08-04 00:48:14,352 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_4.jpg
+2025-08-04 00:48:14,393 - __main__ - INFO - Preprocessed image with original size (349, 425, 3), resized to (128, 128, 3)
+2025-08-04 00:48:14,709 - __main__ - INFO - Prediction completed in 0.32 seconds
+2025-08-04 00:48:14,712 - __main__ - INFO - Raw prediction probability: 0.2449
+2025-08-04 00:48:14,722 - __main__ - INFO - Processed Test_Tumor_4.jpg in 0.37 seconds
+2025-08-04 00:48:14,728 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_5.jpg
+2025-08-04 00:48:14,728 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_5.jpg
+2025-08-04 00:48:14,731 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_5.jpg
+2025-08-04 00:48:14,771 - __main__ - INFO - Preprocessed image with original size (475, 401, 3), resized to (128, 128, 3)
+2025-08-04 00:48:14,986 - __main__ - INFO - Prediction completed in 0.21 seconds
+2025-08-04 00:48:14,986 - __main__ - INFO - Raw prediction probability: 0.9987
+2025-08-04 00:48:15,000 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 00:48:15,000 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 00:48:15,003 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 00:48:15,003 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 00:48:15,003 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 00:48:15,003 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 00:48:15,011 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 00:48:15,017 - __main__ - INFO - Activation pixels after thresholding: 8519
+2025-08-04 00:48:15,042 - __main__ - INFO - Tumor center: x=201, y=238, location=Middle Center
+2025-08-04 00:48:15,042 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 00:48:15,125 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 00:48:15,129 - __main__ - INFO - Processed Test_Tumor_5.jpg in 0.41 seconds
+2025-08-04 00:48:15,129 - __main__ - INFO - Completed processing 5 files. Valid: 5, Tumor positive: 2
+2025-08-04 00:48:15,133 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:48:15] "POST /predict HTTP/1.1" 200 -
+2025-08-04 00:48:15,183 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:48:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 00:48:15,231 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:48:15] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-04 00:48:15,237 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:48:15] "GET /static/uploads/original_Test_Tumor_2.jpg HTTP/1.1" 200 -
+2025-08-04 00:48:15,242 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:48:15] "GET /static/uploads/original_Test_Tumor_3.jpg HTTP/1.1" 200 -
+2025-08-04 00:48:15,242 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:48:15] "GET /static/uploads/original_Test_Tumor_4.jpg HTTP/1.1" 200 -
+2025-08-04 00:48:15,259 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:48:15] "GET /static/uploads/highlighted_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-08-04 00:49:10,917 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_97.jpg
+2025-08-04 00:49:10,932 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_97.jpg
+2025-08-04 00:49:10,933 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_97.jpg
+2025-08-04 00:49:10,967 - __main__ - INFO - Preprocessed image with original size (602, 510, 3), resized to (128, 128, 3)
+2025-08-04 00:49:11,201 - __main__ - INFO - Prediction completed in 0.23 seconds
+2025-08-04 00:49:11,201 - __main__ - INFO - Raw prediction probability: 0.9995
+2025-08-04 00:49:11,222 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 00:49:11,222 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 00:49:11,222 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 00:49:11,222 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 00:49:11,222 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 00:49:11,231 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 00:49:11,239 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 00:49:11,243 - __main__ - INFO - Activation pixels after thresholding: 13752
+2025-08-04 00:49:11,296 - __main__ - INFO - Tumor center: x=256, y=302, location=Middle Center
+2025-08-04 00:49:11,300 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 00:49:11,321 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 00:49:11,321 - __main__ - INFO - Processed Test_Tumor_97.jpg in 0.40 seconds
+2025-08-04 00:49:11,335 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_98.jpg
+2025-08-04 00:49:11,335 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_98.jpg
+2025-08-04 00:49:11,335 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_98.jpg
+2025-08-04 00:49:11,382 - __main__ - INFO - Preprocessed image with original size (602, 510, 3), resized to (128, 128, 3)
+2025-08-04 00:49:11,624 - __main__ - INFO - Prediction completed in 0.24 seconds
+2025-08-04 00:49:11,624 - __main__ - INFO - Raw prediction probability: 0.9995
+2025-08-04 00:49:11,649 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 00:49:11,649 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 00:49:11,649 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 00:49:11,649 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 00:49:11,649 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 00:49:11,657 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 00:49:11,669 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 00:49:11,674 - __main__ - INFO - Activation pixels after thresholding: 13752
+2025-08-04 00:49:11,749 - __main__ - INFO - Tumor center: x=256, y=302, location=Middle Center
+2025-08-04 00:49:11,757 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 00:49:11,784 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 00:49:11,787 - __main__ - INFO - Processed Test_Tumor_98.jpg in 0.46 seconds
+2025-08-04 00:49:11,791 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_99.jpg
+2025-08-04 00:49:11,792 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_99.jpg
+2025-08-04 00:49:11,793 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_99.jpg
+2025-08-04 00:49:11,836 - __main__ - INFO - Preprocessed image with original size (419, 369, 3), resized to (128, 128, 3)
+2025-08-04 00:49:12,070 - __main__ - INFO - Prediction completed in 0.23 seconds
+2025-08-04 00:49:12,070 - __main__ - INFO - Raw prediction probability: 0.9986
+2025-08-04 00:49:12,087 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 00:49:12,087 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 00:49:12,087 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 00:49:12,087 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 00:49:12,087 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 00:49:12,096 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 00:49:12,099 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 00:49:12,099 - __main__ - INFO - Activation pixels after thresholding: 6887
+2025-08-04 00:49:12,118 - __main__ - INFO - Tumor center: x=185, y=210, location=Middle Center
+2025-08-04 00:49:12,127 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 00:49:12,150 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 00:49:12,150 - __main__ - INFO - Processed Test_Tumor_99.jpg in 0.36 seconds
+2025-08-04 00:49:12,152 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_100.jpg
+2025-08-04 00:49:12,152 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_100.jpg
+2025-08-04 00:49:12,152 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_100.jpg
+2025-08-04 00:49:12,216 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-04 00:49:12,569 - __main__ - INFO - Prediction completed in 0.35 seconds
+2025-08-04 00:49:12,569 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-04 00:49:12,584 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 00:49:12,584 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 00:49:12,584 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 00:49:12,584 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 00:49:12,584 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 00:49:12,593 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 00:49:12,602 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 00:49:12,610 - __main__ - INFO - Activation pixels after thresholding: 13715
+2025-08-04 00:49:12,659 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-08-04 00:49:12,667 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 00:49:12,691 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 00:49:12,699 - __main__ - INFO - Processed Test_Tumor_100.jpg in 0.55 seconds
+2025-08-04 00:49:12,699 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_101.jpg
+2025-08-04 00:49:12,699 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_101.jpg
+2025-08-04 00:49:12,699 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_101.jpg
+2025-08-04 00:49:12,746 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 00:49:13,017 - __main__ - INFO - Prediction completed in 0.27 seconds
+2025-08-04 00:49:13,017 - __main__ - INFO - Raw prediction probability: 0.9996
+2025-08-04 00:49:13,032 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 00:49:13,033 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 00:49:13,035 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 00:49:13,037 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 00:49:13,037 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 00:49:13,038 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 00:49:13,041 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 00:49:13,051 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-08-04 00:49:13,099 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-08-04 00:49:13,115 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 00:49:13,132 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 00:49:13,132 - __main__ - INFO - Processed Test_Tumor_101.jpg in 0.43 seconds
+2025-08-04 00:49:13,132 - __main__ - INFO - Completed processing 5 files. Valid: 5, Tumor positive: 5
+2025-08-04 00:49:13,138 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:49:13] "POST /predict HTTP/1.1" 200 -
+2025-08-04 00:49:13,187 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:49:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 00:49:13,261 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:49:13] "GET /static/uploads/highlighted_Test_Tumor_97.jpg HTTP/1.1" 200 -
+2025-08-04 00:49:13,265 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:49:13] "GET /static/uploads/highlighted_Test_Tumor_99.jpg HTTP/1.1" 200 -
+2025-08-04 00:49:13,267 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:49:13] "GET /static/uploads/highlighted_Test_Tumor_98.jpg HTTP/1.1" 200 -
+2025-08-04 00:49:13,273 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:49:13] "GET /static/uploads/highlighted_Test_Tumor_100.jpg HTTP/1.1" 200 -
+2025-08-04 00:49:13,296 - werkzeug - INFO - 10.29.28.23 - - [04/Aug/2025 00:49:13] "GET /static/uploads/highlighted_Test_Tumor_101.jpg HTTP/1.1" 200 -
+2025-08-04 12:24:17,846 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 12:24:18,418 - __main__ - INFO - Model loaded in 0.57 seconds
+2025-08-04 12:24:18,418 - __main__ - INFO - Model Summary:
+2025-08-04 12:24:18,499 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 12:24:18,505 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 12:24:20,287 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 12:24:20,287 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-08-04 12:24:20,287 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 12:24:20,343 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.26:5000
+2025-08-04 12:24:20,343 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 12:24:20,352 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 12:24:26,127 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 12:24:26,357 - __main__ - INFO - Model loaded in 0.23 seconds
+2025-08-04 12:24:26,357 - __main__ - INFO - Model Summary:
+2025-08-04 12:24:26,383 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 12:24:26,391 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 12:24:26,719 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 12:24:26,719 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-08-04 12:24:26,722 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 12:24:26,732 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 12:24:26,736 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-08-04 12:24:31,877 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:24:31] "GET / HTTP/1.1" 200 -
+2025-08-04 12:24:32,198 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:24:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-04 12:24:33,436 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:24:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 12:29:37,037 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 12:29:37,037 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 12:29:37,041 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 12:29:37,100 - __main__ - INFO - Preprocessed image with original size (236, 236, 3), resized to (128, 128, 3)
+2025-08-04 12:29:37,267 - __main__ - INFO - Prediction completed in 0.17 seconds
+2025-08-04 12:29:37,267 - __main__ - INFO - Raw prediction probability: 0.0078
+2025-08-04 12:29:37,337 - __main__ - INFO - Processed Test_No_Tumor_1.jpg in 0.30 seconds
+2025-08-04 12:29:37,338 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-08-04 12:29:37,338 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:29:37] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:29:37,379 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:29:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 12:29:37,405 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:29:37] "GET /static/uploads/original_Test_No_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-04 12:30:02,285 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_121.jpg
+2025-08-04 12:30:02,285 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_121.jpg
+2025-08-04 12:30:02,285 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_121.jpg
+2025-08-04 12:30:02,383 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 12:30:02,482 - __main__ - INFO - Prediction completed in 0.10 seconds
+2025-08-04 12:30:02,482 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-08-04 12:30:02,497 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 12:30:02,498 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 12:30:02,501 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 12:30:02,503 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 12:30:02,503 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 12:30:02,505 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 12:30:02,520 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 12:30:02,525 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-08-04 12:30:02,566 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-08-04 12:30:02,566 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 12:30:02,574 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 12:30:02,574 - __main__ - INFO - Processed Test_Tumor_121.jpg in 0.29 seconds
+2025-08-04 12:30:02,577 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_122.jpg
+2025-08-04 12:30:02,577 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_122.jpg
+2025-08-04 12:30:02,577 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_122.jpg
+2025-08-04 12:30:02,591 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 12:30:02,675 - __main__ - INFO - Prediction completed in 0.08 seconds
+2025-08-04 12:30:02,676 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-08-04 12:30:02,680 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 12:30:02,681 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 12:30:02,681 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 12:30:02,682 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 12:30:02,683 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 12:30:02,683 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 12:30:02,683 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 12:30:02,683 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-08-04 12:30:02,699 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-08-04 12:30:02,699 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 12:30:02,699 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 12:30:02,707 - __main__ - INFO - Processed Test_Tumor_122.jpg in 0.13 seconds
+2025-08-04 12:30:02,708 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_123.jpg
+2025-08-04 12:30:02,708 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_123.jpg
+2025-08-04 12:30:02,709 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_123.jpg
+2025-08-04 12:30:02,728 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 12:30:02,797 - __main__ - INFO - Prediction completed in 0.07 seconds
+2025-08-04 12:30:02,797 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-08-04 12:30:02,797 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 12:30:02,805 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 12:30:02,805 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 12:30:02,805 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 12:30:02,805 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 12:30:02,805 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 12:30:02,805 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 12:30:02,805 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-08-04 12:30:02,822 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-08-04 12:30:02,824 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 12:30:02,831 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 12:30:02,831 - __main__ - INFO - Processed Test_Tumor_123.jpg in 0.12 seconds
+2025-08-04 12:30:02,831 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_124.jpg
+2025-08-04 12:30:02,831 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_124.jpg
+2025-08-04 12:30:02,831 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_124.jpg
+2025-08-04 12:30:02,846 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 12:30:02,923 - __main__ - INFO - Prediction completed in 0.08 seconds
+2025-08-04 12:30:02,924 - __main__ - INFO - Raw prediction probability: 0.9996
+2025-08-04 12:30:02,928 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 12:30:02,928 - __main__ - INFO - Original heatmap shape: (128, 128)
+2025-08-04 12:30:02,929 - __main__ - INFO - Original heatmap stats - min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 12:30:02,929 - __main__ - INFO - Number of non-zero elements: 0
+2025-08-04 12:30:02,929 - __main__ - WARNING - Heatmap is entirely zeros! Creating dummy heatmap for visualization.
+2025-08-04 12:30:02,929 - __main__ - INFO - Using dummy heatmap for visualization
+2025-08-04 12:30:02,931 - __main__ - INFO - Using 90th percentile as threshold: 1.0
+2025-08-04 12:30:02,932 - __main__ - INFO - Activation pixels after thresholding: 11712
+2025-08-04 12:30:02,939 - __main__ - INFO - Tumor center: x=257, y=257, location=Middle Center
+2025-08-04 12:30:02,947 - __main__ - INFO - Enhanced focused heatmap created with info panel - location: Middle Center
+2025-08-04 12:30:02,954 - __main__ - INFO - Determined tumor location: Top Left
+2025-08-04 12:30:02,954 - __main__ - INFO - Processed Test_Tumor_124.jpg in 0.12 seconds
+2025-08-04 12:30:02,954 - __main__ - INFO - Completed processing 4 files. Valid: 4, Tumor positive: 4
+2025-08-04 12:30:02,954 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:30:02] "POST /predict HTTP/1.1" 200 -
+2025-08-04 12:30:02,988 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:30:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 12:30:03,005 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:30:03] "GET /static/uploads/highlighted_Test_Tumor_121.jpg HTTP/1.1" 200 -
+2025-08-04 12:30:03,013 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:30:03] "GET /static/uploads/highlighted_Test_Tumor_122.jpg HTTP/1.1" 200 -
+2025-08-04 12:30:03,031 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:30:03] "GET /static/uploads/highlighted_Test_Tumor_124.jpg HTTP/1.1" 200 -
+2025-08-04 12:30:03,031 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 12:30:03] "GET /static/uploads/highlighted_Test_Tumor_123.jpg HTTP/1.1" 200 -
+2025-08-04 13:14:42,369 - werkzeug - INFO -  * Detected change in 'c:\\Users\\PMLS\\Desktop\\FYP\\brain_tumor_app\\app.py', reloading
+2025-08-04 13:14:45,337 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 13:15:06,697 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 13:15:07,093 - __main__ - INFO - Model loaded in 0.40 seconds
+2025-08-04 13:15:07,094 - __main__ - INFO - Model Summary:
+2025-08-04 13:15:07,241 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 13:15:07,248 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 13:15:08,665 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 13:16:12,203 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 13:16:12,410 - __main__ - INFO - Model loaded in 0.21 seconds
+2025-08-04 13:16:12,410 - __main__ - INFO - Model Summary:
+2025-08-04 13:16:12,440 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 13:16:12,440 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 13:16:12,758 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 13:16:12,758 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-08-04 13:16:12,758 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 13:16:12,887 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.26:5000
+2025-08-04 13:16:12,887 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 13:16:12,893 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 13:16:18,783 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 13:16:19,021 - __main__ - INFO - Model loaded in 0.24 seconds
+2025-08-04 13:16:19,021 - __main__ - INFO - Model Summary:
+2025-08-04 13:16:19,047 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 13:16:19,057 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 13:16:19,397 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 13:16:19,397 - __main__ - ERROR - Error creating Grad-CAM model: The layer sequential has never been called and thus has no defined output.
+2025-08-04 13:16:19,401 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 13:16:19,410 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 13:16:19,414 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-08-04 13:16:20,986 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 13:16:20] "GET / HTTP/1.1" 200 -
+2025-08-04 13:16:21,241 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 13:16:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-04 13:16:22,595 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 13:16:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 13:16:41,091 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-08-04 13:16:41,091 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-08-04 13:16:41,091 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-08-04 13:16:41,204 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-04 13:16:41,463 - __main__ - INFO - Prediction completed in 0.26 seconds
+2025-08-04 13:16:41,463 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-04 13:16:41,569 - __main__ - ERROR - Grad-CAM model is not initialized
+2025-08-04 13:16:41,574 - __main__ - INFO - Heatmap shape: (128, 128), min: 0.0, max: 0.0, mean: 0.0
+2025-08-04 13:16:41,574 - __main__ - INFO - Non-zero elements: 0
+2025-08-04 13:16:41,574 - __main__ - WARNING - Heatmap is nearly empty, using adaptive thresholding
+2025-08-04 13:16:41,582 - __main__ - WARNING - Heatmap is all zeros, creating fallback heatmap
+2025-08-04 13:16:41,626 - __main__ - INFO - Using 75th percentile threshold: 1.0
+2025-08-04 13:16:41,722 - __main__ - INFO - Tumor center: x=248, y=311, location=Middle Center
+2025-08-04 13:16:41,741 - __main__ - INFO - Overlay created - location: Middle Center, basis: Gradient-weighted feature map activations
+2025-08-04 13:16:41,770 - __main__ - INFO - Determined tumor location: Top Left, basis: Mean heatmap intensity
+2025-08-04 13:16:41,770 - __main__ - INFO - Processed Test_Tumor_1.jpg in 0.68 seconds
+2025-08-04 13:16:41,773 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-04 13:16:41,773 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 13:16:41] "POST /predict HTTP/1.1" 200 -
+2025-08-04 13:16:41,828 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 13:16:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 13:16:41,887 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 13:16:41] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-04 13:32:24,292 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 13:32:24,788 - __main__ - INFO - Model loaded in 0.50 seconds
+2025-08-04 13:32:24,788 - __main__ - INFO - Model Summary:
+2025-08-04 13:32:24,829 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 13:32:24,836 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 13:32:26,267 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 13:32:28,051 - __main__ - ERROR - Failed to load image
+2025-08-04 13:35:17,190 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 13:35:17,484 - __main__ - INFO - Model loaded in 0.29 seconds
+2025-08-04 13:35:17,485 - __main__ - INFO - Model Summary:
+2025-08-04 13:35:17,503 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for Grad-CAM
+2025-08-04 13:35:17,513 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 13:35:17,833 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 13:35:18,032 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 13:35:18,149 - __main__ - INFO - Model loaded in 0.12 seconds
+2025-08-04 13:35:18,156 - __main__ - INFO - Model Summary:
+2025-08-04 13:35:18,280 - __main__ - INFO - Model: "sequential"
+????????????????????????????????????????????????????????????????????????????????????????
+? Layer (type)                         ? Output Shape                ?         Param # ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d (Conv2D)                      ? (None, 128, 128, 32)        ?             896 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization                  ? (None, 128, 128, 32)        ?             128 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d (MaxPooling2D)         ? (None, 64, 64, 32)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_1 (Conv2D)                    ? (None, 64, 64, 64)          ?          18,496 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_1                ? (None, 64, 64, 64)          ?             256 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_1 (MaxPooling2D)       ? (None, 32, 32, 64)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_2 (Conv2D)                    ? (None, 32, 32, 128)         ?          73,856 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_2                ? (None, 32, 32, 128)         ?             512 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_2 (MaxPooling2D)       ? (None, 16, 16, 128)         ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? global_average_pooling2d             ? (None, 128)                 ?               0 ?
+? (GlobalAveragePooling2D)             ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense (Dense)                        ? (None, 512)                 ?          66,048 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dropout (Dropout)                    ? (None, 512)                 ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense_1 (Dense)                      ? (None, 1)                   ?             513 ?
+????????????????????????????????????????????????????????????????????????????????????????
+ Total params: 320,964 (1.22 MB)
+ Trainable params: 160,257 (626.00 KB)
+ Non-trainable params: 448 (1.75 KB)
+ Optimizer params: 160,259 (626.02 KB)
+
+
+2025-08-04 13:35:18,285 - __main__ - INFO - Using conv2d_2 as the last convolutional layer for visualization
+2025-08-04 13:35:18,286 - __main__ - INFO - Initialized TumorSegmentation with intensity_threshold=0.7, edge_sensitivity=100, texture_threshold=0.5
+2025-08-04 13:35:18,286 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 13:35:18,701 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 13:35:18,713 - __main__ - ERROR - Failed to load image
+2025-08-04 15:14:49,935 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 15:14:50,285 - __main__ - INFO - Model loaded in 0.35 seconds
+2025-08-04 15:14:50,285 - __main__ - INFO - Model Summary:
+2025-08-04 15:14:50,303 - __main__ - INFO - Model: "sequential"
+????????????????????????????????????????????????????????????????????????????????????????
+? Layer (type)                         ? Output Shape                ?         Param # ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d (Conv2D)                      ? (None, 128, 128, 32)        ?             896 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization                  ? (None, 128, 128, 32)        ?             128 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d (MaxPooling2D)         ? (None, 64, 64, 32)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_1 (Conv2D)                    ? (None, 64, 64, 64)          ?          18,496 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_1                ? (None, 64, 64, 64)          ?             256 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_1 (MaxPooling2D)       ? (None, 32, 32, 64)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_2 (Conv2D)                    ? (None, 32, 32, 128)         ?          73,856 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_2                ? (None, 32, 32, 128)         ?             512 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_2 (MaxPooling2D)       ? (None, 16, 16, 128)         ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? global_average_pooling2d             ? (None, 128)                 ?               0 ?
+? (GlobalAveragePooling2D)             ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense (Dense)                        ? (None, 512)                 ?          66,048 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dropout (Dropout)                    ? (None, 512)                 ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense_1 (Dense)                      ? (None, 1)                   ?             513 ?
+????????????????????????????????????????????????????????????????????????????????????????
+ Total params: 320,964 (1.22 MB)
+ Trainable params: 160,257 (626.00 KB)
+ Non-trainable params: 448 (1.75 KB)
+ Optimizer params: 160,259 (626.02 KB)
+
+
+2025-08-04 15:14:50,309 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 15:14:51,644 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 15:14:51,644 - __main__ - INFO - Initialized TumorSegmentation with intensity_threshold=0.7, edge_sensitivity=100, texture_threshold=0.5
+2025-08-04 15:14:51,644 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 15:14:51,688 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.26:5000
+2025-08-04 15:14:51,688 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-04 15:14:51,688 - werkzeug - INFO -  * Restarting with stat
+2025-08-04 15:14:57,264 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-04 15:14:57,500 - __main__ - INFO - Model loaded in 0.24 seconds
+2025-08-04 15:14:57,500 - __main__ - INFO - Model Summary:
+2025-08-04 15:14:57,518 - __main__ - INFO - Model: "sequential"
+????????????????????????????????????????????????????????????????????????????????????????
+? Layer (type)                         ? Output Shape                ?         Param # ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d (Conv2D)                      ? (None, 128, 128, 32)        ?             896 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization                  ? (None, 128, 128, 32)        ?             128 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d (MaxPooling2D)         ? (None, 64, 64, 32)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_1 (Conv2D)                    ? (None, 64, 64, 64)          ?          18,496 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_1                ? (None, 64, 64, 64)          ?             256 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_1 (MaxPooling2D)       ? (None, 32, 32, 64)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_2 (Conv2D)                    ? (None, 32, 32, 128)         ?          73,856 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_2                ? (None, 32, 32, 128)         ?             512 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_2 (MaxPooling2D)       ? (None, 16, 16, 128)         ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? global_average_pooling2d             ? (None, 128)                 ?               0 ?
+? (GlobalAveragePooling2D)             ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense (Dense)                        ? (None, 512)                 ?          66,048 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dropout (Dropout)                    ? (None, 512)                 ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense_1 (Dense)                      ? (None, 1)                   ?             513 ?
+????????????????????????????????????????????????????????????????????????????????????????
+ Total params: 320,964 (1.22 MB)
+ Trainable params: 160,257 (626.00 KB)
+ Non-trainable params: 448 (1.75 KB)
+ Optimizer params: 160,259 (626.02 KB)
+
+
+2025-08-04 15:14:57,522 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-04 15:14:57,856 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-04 15:14:57,856 - __main__ - INFO - Initialized TumorSegmentation with intensity_threshold=0.7, edge_sensitivity=100, texture_threshold=0.5
+2025-08-04 15:14:57,858 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-04 15:14:57,866 - werkzeug - WARNING -  * Debugger is active!
+2025-08-04 15:14:57,868 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-08-04 15:15:13,397 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:15:13] "GET / HTTP/1.1" 200 -
+2025-08-04 15:15:13,551 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:15:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 15:15:28,457 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-08-04 15:15:28,458 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-08-04 15:15:28,458 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-08-04 15:15:28,547 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-04 15:15:28,797 - __main__ - INFO - Prediction completed in 0.25 seconds
+2025-08-04 15:15:28,797 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-04 15:15:28,916 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-04 15:15:28,922 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-04 15:15:28,962 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-04 15:15:29,857 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-04 15:15:29,871 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-04 15:15:29,970 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-04 15:15:30,046 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-04 15:15:30,088 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-04 15:15:30,091 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-04 15:15:30,091 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-04 15:15:30,987 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-04 15:15:30,993 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-04 15:15:30,993 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-04 15:15:31,002 - __main__ - INFO - Processed Test_Tumor_1.jpg in 2.55 seconds
+2025-08-04 15:15:31,004 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-04 15:15:31,007 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:15:31] "POST /predict HTTP/1.1" 200 -
+2025-08-04 15:15:31,115 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:15:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 15:15:31,143 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:15:31] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-04 15:16:11,203 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 15:16:11,203 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 15:16:11,203 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_1.jpg
+2025-08-04 15:16:11,236 - __main__ - INFO - Preprocessed image with original size (236, 236, 3), resized to (128, 128, 3)
+2025-08-04 15:16:11,486 - __main__ - INFO - Prediction completed in 0.25 seconds
+2025-08-04 15:16:11,486 - __main__ - INFO - Raw prediction probability: 0.0078
+2025-08-04 15:16:11,486 - __main__ - INFO - Processed Test_No_Tumor_1.jpg in 0.28 seconds
+2025-08-04 15:16:11,486 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-08-04 15:16:11,502 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:16:11] "POST /predict HTTP/1.1" 200 -
+2025-08-04 15:16:11,570 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:16:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 15:16:11,615 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:16:11] "GET /static/uploads/original_Test_No_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-04 15:16:30,447 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-08-04 15:16:30,447 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-08-04 15:16:30,453 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-08-04 15:16:30,493 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-04 15:16:30,729 - __main__ - INFO - Prediction completed in 0.24 seconds
+2025-08-04 15:16:30,729 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-04 15:16:30,758 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-04 15:16:30,761 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-04 15:16:30,768 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-04 15:16:31,658 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-04 15:16:31,658 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-04 15:16:31,670 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-04 15:16:31,724 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-04 15:16:31,764 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-04 15:16:31,769 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-04 15:16:31,771 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-04 15:16:32,673 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-04 15:16:32,676 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-04 15:16:32,685 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-04 15:16:32,685 - __main__ - INFO - Processed Test_Tumor_1.jpg in 2.25 seconds
+2025-08-04 15:16:32,685 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-04 15:16:32,685 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:16:32] "POST /predict HTTP/1.1" 200 -
+2025-08-04 15:16:32,764 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:16:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 15:16:32,818 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:16:32] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-04 15:17:27,653 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_115.jpg
+2025-08-04 15:17:27,655 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_115.jpg
+2025-08-04 15:17:27,657 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_115.jpg
+2025-08-04 15:17:27,698 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 15:17:27,968 - __main__ - INFO - Prediction completed in 0.27 seconds
+2025-08-04 15:17:27,971 - __main__ - INFO - Raw prediction probability: 0.9946
+2025-08-04 15:17:27,995 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.0, max=1.0
+2025-08-04 15:17:27,996 - __main__ - INFO - Intensity mask: 12824 pixels above threshold
+2025-08-04 15:17:28,004 - __main__ - INFO - Edge mask: 22620 edge pixels detected
+2025-08-04 15:17:28,665 - __main__ - INFO - Texture mask: 114845 high-entropy pixels
+2025-08-04 15:17:28,673 - __main__ - INFO - Combined mask: 33837 pixels selected
+2025-08-04 15:17:28,678 - __main__ - INFO - Largest contour area: 94373.0
+2025-08-04 15:17:28,739 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-04 15:17:28,775 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.0, max=1.0
+2025-08-04 15:17:28,775 - __main__ - INFO - Intensity mask: 12824 pixels above threshold
+2025-08-04 15:17:28,784 - __main__ - INFO - Edge mask: 22620 edge pixels detected
+2025-08-04 15:17:29,517 - __main__ - INFO - Texture mask: 114845 high-entropy pixels
+2025-08-04 15:17:29,531 - __main__ - INFO - Combined mask: 33837 pixels selected
+2025-08-04 15:17:29,535 - __main__ - INFO - Largest contour area: 94373.0
+2025-08-04 15:17:29,535 - __main__ - INFO - Processed Test_Tumor_115.jpg in 1.89 seconds
+2025-08-04 15:17:29,535 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_116.jpg
+2025-08-04 15:17:29,535 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_116.jpg
+2025-08-04 15:17:29,547 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_116.jpg
+2025-08-04 15:17:29,622 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 15:17:29,834 - __main__ - INFO - Prediction completed in 0.20 seconds
+2025-08-04 15:17:29,834 - __main__ - INFO - Raw prediction probability: 0.9998
+2025-08-04 15:17:29,851 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.00392156862745098, max=1.0
+2025-08-04 15:17:29,851 - __main__ - INFO - Intensity mask: 6122 pixels above threshold
+2025-08-04 15:17:29,870 - __main__ - INFO - Edge mask: 10381 edge pixels detected
+2025-08-04 15:17:30,469 - __main__ - INFO - Texture mask: 104659 high-entropy pixels
+2025-08-04 15:17:30,469 - __main__ - INFO - Combined mask: 15868 pixels selected
+2025-08-04 15:17:30,484 - __main__ - INFO - Largest contour area: 96879.0
+2025-08-04 15:17:30,534 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-04 15:17:30,564 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.00392156862745098, max=1.0
+2025-08-04 15:17:30,566 - __main__ - INFO - Intensity mask: 6122 pixels above threshold
+2025-08-04 15:17:30,579 - __main__ - INFO - Edge mask: 10381 edge pixels detected
+2025-08-04 15:17:31,163 - __main__ - INFO - Texture mask: 104659 high-entropy pixels
+2025-08-04 15:17:31,171 - __main__ - INFO - Combined mask: 15868 pixels selected
+2025-08-04 15:17:31,175 - __main__ - INFO - Largest contour area: 96879.0
+2025-08-04 15:17:31,178 - __main__ - INFO - Processed Test_Tumor_116.jpg in 1.64 seconds
+2025-08-04 15:17:31,232 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_117.jpg
+2025-08-04 15:17:31,232 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_117.jpg
+2025-08-04 15:17:31,232 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_117.jpg
+2025-08-04 15:17:31,284 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 15:17:31,535 - __main__ - INFO - Prediction completed in 0.25 seconds
+2025-08-04 15:17:31,536 - __main__ - INFO - Raw prediction probability: 0.9999
+2025-08-04 15:17:31,557 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.00392156862745098, max=1.0
+2025-08-04 15:17:31,561 - __main__ - INFO - Intensity mask: 6799 pixels above threshold
+2025-08-04 15:17:31,568 - __main__ - INFO - Edge mask: 16218 edge pixels detected
+2025-08-04 15:17:32,230 - __main__ - INFO - Texture mask: 128905 high-entropy pixels
+2025-08-04 15:17:32,234 - __main__ - INFO - Combined mask: 22305 pixels selected
+2025-08-04 15:17:32,239 - __main__ - INFO - Largest contour area: 115863.5
+2025-08-04 15:17:32,272 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-04 15:17:32,301 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.00392156862745098, max=1.0
+2025-08-04 15:17:32,311 - __main__ - INFO - Intensity mask: 6799 pixels above threshold
+2025-08-04 15:17:32,317 - __main__ - INFO - Edge mask: 16218 edge pixels detected
+2025-08-04 15:17:32,962 - __main__ - INFO - Texture mask: 128905 high-entropy pixels
+2025-08-04 15:17:32,970 - __main__ - INFO - Combined mask: 22305 pixels selected
+2025-08-04 15:17:32,970 - __main__ - INFO - Largest contour area: 115863.5
+2025-08-04 15:17:32,978 - __main__ - INFO - Processed Test_Tumor_117.jpg in 1.80 seconds
+2025-08-04 15:17:32,984 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_118.jpg
+2025-08-04 15:17:32,984 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_118.jpg
+2025-08-04 15:17:32,984 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_118.jpg
+2025-08-04 15:17:33,069 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 15:17:33,290 - __main__ - INFO - Prediction completed in 0.22 seconds
+2025-08-04 15:17:33,290 - __main__ - INFO - Raw prediction probability: 0.9985
+2025-08-04 15:17:33,317 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.00392156862745098, max=1.0
+2025-08-04 15:17:33,317 - __main__ - INFO - Intensity mask: 3771 pixels above threshold
+2025-08-04 15:17:33,337 - __main__ - INFO - Edge mask: 10128 edge pixels detected
+2025-08-04 15:17:34,034 - __main__ - INFO - Texture mask: 105882 high-entropy pixels
+2025-08-04 15:17:34,035 - __main__ - INFO - Combined mask: 13606 pixels selected
+2025-08-04 15:17:34,035 - __main__ - INFO - Largest contour area: 102209.0
+2025-08-04 15:17:34,080 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-04 15:17:34,171 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.00392156862745098, max=1.0
+2025-08-04 15:17:34,173 - __main__ - INFO - Intensity mask: 3771 pixels above threshold
+2025-08-04 15:17:34,182 - __main__ - INFO - Edge mask: 10128 edge pixels detected
+2025-08-04 15:17:34,769 - __main__ - INFO - Texture mask: 105882 high-entropy pixels
+2025-08-04 15:17:34,778 - __main__ - INFO - Combined mask: 13606 pixels selected
+2025-08-04 15:17:34,786 - __main__ - INFO - Largest contour area: 102209.0
+2025-08-04 15:17:34,786 - __main__ - INFO - Processed Test_Tumor_118.jpg in 1.81 seconds
+2025-08-04 15:17:34,796 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_119.jpg
+2025-08-04 15:17:34,802 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_119.jpg
+2025-08-04 15:17:34,803 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_119.jpg
+2025-08-04 15:17:34,875 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-04 15:17:35,096 - __main__ - INFO - Prediction completed in 0.21 seconds
+2025-08-04 15:17:35,110 - __main__ - INFO - Raw prediction probability: 0.9761
+2025-08-04 15:17:35,135 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.00392156862745098, max=1.0
+2025-08-04 15:17:35,135 - __main__ - INFO - Intensity mask: 4939 pixels above threshold
+2025-08-04 15:17:35,143 - __main__ - INFO - Edge mask: 12554 edge pixels detected
+2025-08-04 15:17:35,777 - __main__ - INFO - Texture mask: 107503 high-entropy pixels
+2025-08-04 15:17:35,782 - __main__ - INFO - Combined mask: 17100 pixels selected
+2025-08-04 15:17:35,787 - __main__ - INFO - Largest contour area: 99966.0
+2025-08-04 15:17:35,828 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-04 15:17:35,871 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.00392156862745098, max=1.0
+2025-08-04 15:17:35,873 - __main__ - INFO - Intensity mask: 4939 pixels above threshold
+2025-08-04 15:17:35,882 - __main__ - INFO - Edge mask: 12554 edge pixels detected
+2025-08-04 15:17:36,520 - __main__ - INFO - Texture mask: 107503 high-entropy pixels
+2025-08-04 15:17:36,520 - __main__ - INFO - Combined mask: 17100 pixels selected
+2025-08-04 15:17:36,532 - __main__ - INFO - Largest contour area: 99966.0
+2025-08-04 15:17:36,534 - __main__ - INFO - Processed Test_Tumor_119.jpg in 1.74 seconds
+2025-08-04 15:17:36,537 - __main__ - INFO - Completed processing 5 files. Valid: 5, Tumor positive: 5
+2025-08-04 15:17:36,537 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:17:36] "POST /predict HTTP/1.1" 200 -
+2025-08-04 15:17:36,620 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:17:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-04 15:17:36,662 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:17:36] "GET /static/uploads/highlighted_Test_Tumor_115.jpg HTTP/1.1" 200 -
+2025-08-04 15:17:36,668 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:17:36] "GET /static/uploads/highlighted_Test_Tumor_116.jpg HTTP/1.1" 200 -
+2025-08-04 15:17:36,668 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:17:36] "GET /static/uploads/highlighted_Test_Tumor_117.jpg HTTP/1.1" 200 -
+2025-08-04 15:17:36,673 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:17:36] "GET /static/uploads/highlighted_Test_Tumor_118.jpg HTTP/1.1" 200 -
+2025-08-04 15:17:36,679 - werkzeug - INFO - 10.29.28.26 - - [04/Aug/2025 15:17:36] "GET /static/uploads/highlighted_Test_Tumor_119.jpg HTTP/1.1" 200 -
+2025-08-05 11:58:26,863 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-05 11:58:27,347 - __main__ - INFO - Model loaded in 0.48 seconds
+2025-08-05 11:58:27,347 - __main__ - INFO - Model Summary:
+2025-08-05 11:58:27,370 - __main__ - INFO - Model: "sequential"
+????????????????????????????????????????????????????????????????????????????????????????
+? Layer (type)                         ? Output Shape                ?         Param # ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d (Conv2D)                      ? (None, 128, 128, 32)        ?             896 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization                  ? (None, 128, 128, 32)        ?             128 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d (MaxPooling2D)         ? (None, 64, 64, 32)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_1 (Conv2D)                    ? (None, 64, 64, 64)          ?          18,496 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_1                ? (None, 64, 64, 64)          ?             256 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_1 (MaxPooling2D)       ? (None, 32, 32, 64)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_2 (Conv2D)                    ? (None, 32, 32, 128)         ?          73,856 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_2                ? (None, 32, 32, 128)         ?             512 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_2 (MaxPooling2D)       ? (None, 16, 16, 128)         ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? global_average_pooling2d             ? (None, 128)                 ?               0 ?
+? (GlobalAveragePooling2D)             ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense (Dense)                        ? (None, 512)                 ?          66,048 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dropout (Dropout)                    ? (None, 512)                 ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense_1 (Dense)                      ? (None, 1)                   ?             513 ?
+????????????????????????????????????????????????????????????????????????????????????????
+ Total params: 320,964 (1.22 MB)
+ Trainable params: 160,257 (626.00 KB)
+ Non-trainable params: 448 (1.75 KB)
+ Optimizer params: 160,259 (626.02 KB)
+
+
+2025-08-05 11:58:27,370 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-05 11:58:28,761 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-05 11:58:28,761 - __main__ - INFO - Initialized TumorSegmentation with intensity_threshold=0.7, edge_sensitivity=100, texture_threshold=0.5
+2025-08-05 11:58:28,761 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-05 11:58:28,839 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.29.28.45:5000
+2025-08-05 11:58:28,846 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-05 11:58:28,846 - werkzeug - INFO -  * Restarting with stat
+2025-08-05 11:58:34,514 - __main__ - INFO - Loading model from best_model11.keras
+2025-08-05 11:58:34,740 - __main__ - INFO - Model loaded in 0.23 seconds
+2025-08-05 11:58:34,740 - __main__ - INFO - Model Summary:
+2025-08-05 11:58:34,760 - __main__ - INFO - Model: "sequential"
+????????????????????????????????????????????????????????????????????????????????????????
+? Layer (type)                         ? Output Shape                ?         Param # ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d (Conv2D)                      ? (None, 128, 128, 32)        ?             896 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization                  ? (None, 128, 128, 32)        ?             128 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d (MaxPooling2D)         ? (None, 64, 64, 32)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_1 (Conv2D)                    ? (None, 64, 64, 64)          ?          18,496 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_1                ? (None, 64, 64, 64)          ?             256 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_1 (MaxPooling2D)       ? (None, 32, 32, 64)          ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? conv2d_2 (Conv2D)                    ? (None, 32, 32, 128)         ?          73,856 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? batch_normalization_2                ? (None, 32, 32, 128)         ?             512 ?
+? (BatchNormalization)                 ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? max_pooling2d_2 (MaxPooling2D)       ? (None, 16, 16, 128)         ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? global_average_pooling2d             ? (None, 128)                 ?               0 ?
+? (GlobalAveragePooling2D)             ?                             ?                 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense (Dense)                        ? (None, 512)                 ?          66,048 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dropout (Dropout)                    ? (None, 512)                 ?               0 ?
+????????????????????????????????????????????????????????????????????????????????????????
+? dense_1 (Dense)                      ? (None, 1)                   ?             513 ?
+????????????????????????????????????????????????????????????????????????????????????????
+ Total params: 320,964 (1.22 MB)
+ Trainable params: 160,257 (626.00 KB)
+ Non-trainable params: 448 (1.75 KB)
+ Optimizer params: 160,259 (626.02 KB)
+
+
+2025-08-05 11:58:34,769 - __main__ - INFO - Model built with input shape: (128, 128, 3)
+2025-08-05 11:58:35,139 - __main__ - INFO - Model successfully initialized with dummy input
+2025-08-05 11:58:35,142 - __main__ - INFO - Initialized TumorSegmentation with intensity_threshold=0.7, edge_sensitivity=100, texture_threshold=0.5
+2025-08-05 11:58:35,142 - __main__ - INFO - Starting application on 0.0.0.0:5000 (debug=True)
+2025-08-05 11:58:35,152 - werkzeug - WARNING -  * Debugger is active!
+2025-08-05 11:58:35,157 - werkzeug - INFO -  * Debugger PIN: 625-565-132
+2025-08-05 11:59:04,822 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:04] "GET / HTTP/1.1" 200 -
+2025-08-05 11:59:05,035 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-08-05 11:59:06,156 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-05 11:59:18,621 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_5.jpg
+2025-08-05 11:59:18,623 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_5.jpg
+2025-08-05 11:59:18,625 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_5.jpg
+2025-08-05 11:59:18,737 - __main__ - INFO - Preprocessed image with original size (475, 401, 3), resized to (128, 128, 3)
+2025-08-05 11:59:19,069 - __main__ - INFO - Prediction completed in 0.33 seconds
+2025-08-05 11:59:19,069 - __main__ - INFO - Raw prediction probability: 0.9987
+2025-08-05 11:59:19,123 - __main__ - INFO - Image preprocessed: shape=(475, 401), min=0.023529411764705882, max=1.0
+2025-08-05 11:59:19,123 - __main__ - INFO - Intensity mask: 27130 pixels above threshold
+2025-08-05 11:59:19,163 - __main__ - INFO - Edge mask: 14451 edge pixels detected
+2025-08-05 11:59:19,826 - __main__ - INFO - Texture mask: 180876 high-entropy pixels
+2025-08-05 11:59:19,838 - __main__ - INFO - Combined mask: 35344 pixels selected
+2025-08-05 11:59:19,880 - __main__ - INFO - Largest contour area: 61679.5
+2025-08-05 11:59:19,925 - __main__ - INFO - Segmentation overlay created - location: Top Center, basis: High intensity, edges, and texture entropy
+2025-08-05 11:59:19,953 - __main__ - INFO - Image preprocessed: shape=(475, 401), min=0.023529411764705882, max=1.0
+2025-08-05 11:59:19,954 - __main__ - INFO - Intensity mask: 27130 pixels above threshold
+2025-08-05 11:59:19,960 - __main__ - INFO - Edge mask: 14451 edge pixels detected
+2025-08-05 11:59:20,528 - __main__ - INFO - Texture mask: 180876 high-entropy pixels
+2025-08-05 11:59:20,540 - __main__ - INFO - Combined mask: 35344 pixels selected
+2025-08-05 11:59:20,545 - __main__ - INFO - Largest contour area: 61679.5
+2025-08-05 11:59:20,548 - __main__ - INFO - Processed Test_Tumor_5.jpg in 1.93 seconds
+2025-08-05 11:59:20,552 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-05 11:59:20,557 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:20] "POST /predict HTTP/1.1" 200 -
+2025-08-05 11:59:20,622 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 11:59:20,659 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:20] "GET /static/uploads/highlighted_Test_Tumor_5.jpg HTTP/1.1" 200 -
+2025-08-05 11:59:51,580 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-08-05 11:59:51,580 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-08-05 11:59:51,580 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-08-05 11:59:51,624 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-05 11:59:51,859 - __main__ - INFO - Prediction completed in 0.24 seconds
+2025-08-05 11:59:51,859 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-05 11:59:51,886 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-05 11:59:51,889 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-05 11:59:51,899 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-05 11:59:52,790 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-05 11:59:52,803 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-05 11:59:52,803 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-05 11:59:52,868 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-05 11:59:52,912 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-05 11:59:52,916 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-05 11:59:52,931 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-05 11:59:53,826 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-05 11:59:53,834 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-05 11:59:53,841 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-05 11:59:53,841 - __main__ - INFO - Processed Test_Tumor_1.jpg in 2.27 seconds
+2025-08-05 11:59:53,845 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-05 11:59:53,845 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:53] "POST /predict HTTP/1.1" 200 -
+2025-08-05 11:59:53,941 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 11:59:53,969 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 11:59:53] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-05 12:01:06,517 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_2.jpg
+2025-08-05 12:01:06,517 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_2.jpg
+2025-08-05 12:01:06,517 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_2.jpg
+2025-08-05 12:01:06,568 - __main__ - INFO - Preprocessed image with original size (641, 557, 3), resized to (128, 128, 3)
+2025-08-05 12:01:06,866 - __main__ - INFO - Prediction completed in 0.30 seconds
+2025-08-05 12:01:06,866 - __main__ - INFO - Raw prediction probability: 0.0348
+2025-08-05 12:01:06,883 - __main__ - INFO - Processed Test_Tumor_2.jpg in 0.37 seconds
+2025-08-05 12:01:06,883 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-08-05 12:01:06,886 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:06] "POST /predict HTTP/1.1" 200 -
+2025-08-05 12:01:06,934 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:01:06,972 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:06] "GET /static/uploads/original_Test_Tumor_2.jpg HTTP/1.1" 200 -
+2025-08-05 12:01:22,090 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_4.jpg
+2025-08-05 12:01:22,092 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_4.jpg
+2025-08-05 12:01:22,092 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_4.jpg
+2025-08-05 12:01:22,120 - __main__ - INFO - Preprocessed image with original size (349, 425, 3), resized to (128, 128, 3)
+2025-08-05 12:01:22,378 - __main__ - INFO - Prediction completed in 0.26 seconds
+2025-08-05 12:01:22,378 - __main__ - INFO - Raw prediction probability: 0.2449
+2025-08-05 12:01:22,395 - __main__ - INFO - Processed Test_Tumor_4.jpg in 0.31 seconds
+2025-08-05 12:01:22,395 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-08-05 12:01:22,395 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:22] "POST /predict HTTP/1.1" 200 -
+2025-08-05 12:01:22,506 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:01:22,545 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:22] "GET /static/uploads/original_Test_Tumor_4.jpg HTTP/1.1" 200 -
+2025-08-05 12:01:32,070 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_31.jpg
+2025-08-05 12:01:32,074 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_31.jpg
+2025-08-05 12:01:32,074 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_31.jpg
+2025-08-05 12:01:32,119 - __main__ - INFO - Preprocessed image with original size (426, 442, 3), resized to (128, 128, 3)
+2025-08-05 12:01:32,379 - __main__ - INFO - Prediction completed in 0.26 seconds
+2025-08-05 12:01:32,379 - __main__ - INFO - Raw prediction probability: 0.0013
+2025-08-05 12:01:32,387 - __main__ - INFO - Processed Test_Tumor_31.jpg in 0.32 seconds
+2025-08-05 12:01:32,387 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-08-05 12:01:32,387 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:32] "POST /predict HTTP/1.1" 200 -
+2025-08-05 12:01:32,450 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:01:32,478 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:01:32] "GET /static/uploads/original_Test_Tumor_31.jpg HTTP/1.1" 200 -
+2025-08-05 12:02:04,763 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:02:04,766 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:02:04,766 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:02:04,814 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-05 12:02:05,069 - __main__ - INFO - Prediction completed in 0.25 seconds
+2025-08-05 12:02:05,069 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-05 12:02:05,099 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-05 12:02:05,103 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-05 12:02:05,111 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-05 12:02:06,034 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-05 12:02:06,042 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-05 12:02:06,046 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-05 12:02:06,095 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-05 12:02:06,130 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-05 12:02:06,132 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-05 12:02:06,135 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-05 12:02:07,038 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-05 12:02:07,050 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-05 12:02:07,060 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-05 12:02:07,060 - __main__ - INFO - Processed Test_Tumor_1.jpg in 2.30 seconds
+2025-08-05 12:02:07,068 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-05 12:02:07,077 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:02:07] "POST /predict HTTP/1.1" 200 -
+2025-08-05 12:02:07,122 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:02:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:02:07,156 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:02:07] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-05 12:18:21,888 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:18:21,889 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:18:21,891 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:18:21,943 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-05 12:18:22,309 - __main__ - INFO - Prediction completed in 0.37 seconds
+2025-08-05 12:18:22,309 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-05 12:18:22,341 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-05 12:18:22,341 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-05 12:18:22,364 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-05 12:18:23,259 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-05 12:18:23,265 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-05 12:18:23,272 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-05 12:18:23,319 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-05 12:18:23,368 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-05 12:18:23,368 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-05 12:18:23,375 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-05 12:18:24,278 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-05 12:18:24,278 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-05 12:18:24,288 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-05 12:18:24,288 - __main__ - INFO - Processed Test_Tumor_1.jpg in 2.41 seconds
+2025-08-05 12:18:24,288 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-05 12:18:24,288 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:18:24] "POST /predict HTTP/1.1" 200 -
+2025-08-05 12:18:24,432 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:18:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:18:24,459 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:18:24] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-05 12:18:55,658 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:18:55,658 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:18:55,658 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_1.jpg
+2025-08-05 12:18:55,712 - __main__ - INFO - Preprocessed image with original size (619, 495, 3), resized to (128, 128, 3)
+2025-08-05 12:18:55,979 - __main__ - INFO - Prediction completed in 0.27 seconds
+2025-08-05 12:18:55,979 - __main__ - INFO - Raw prediction probability: 0.9581
+2025-08-05 12:18:56,015 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-05 12:18:56,020 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-05 12:18:56,035 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-05 12:18:56,923 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-05 12:18:56,938 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-05 12:18:56,945 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-05 12:18:56,993 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-05 12:18:57,024 - __main__ - INFO - Image preprocessed: shape=(619, 495), min=0.00392156862745098, max=1.0
+2025-08-05 12:18:57,024 - __main__ - INFO - Intensity mask: 37511 pixels above threshold
+2025-08-05 12:18:57,029 - __main__ - INFO - Edge mask: 27448 edge pixels detected
+2025-08-05 12:18:57,970 - __main__ - INFO - Texture mask: 233848 high-entropy pixels
+2025-08-05 12:18:57,977 - __main__ - INFO - Combined mask: 60853 pixels selected
+2025-08-05 12:18:57,977 - __main__ - INFO - Largest contour area: 211765.5
+2025-08-05 12:18:57,986 - __main__ - INFO - Processed Test_Tumor_1.jpg in 2.33 seconds
+2025-08-05 12:18:57,989 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-05 12:18:57,990 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:18:57] "POST /predict HTTP/1.1" 200 -
+2025-08-05 12:18:58,025 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:18:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:18:58,060 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:18:58] "GET /static/uploads/highlighted_Test_Tumor_1.jpg HTTP/1.1" 200 -
+2025-08-05 12:21:03,136 - __main__ - INFO - Saved uploaded file to static/uploads/Test_Tumor_63.jpg
+2025-08-05 12:21:03,137 - __main__ - INFO - Bypassing validation for static/uploads/Test_Tumor_63.jpg
+2025-08-05 12:21:03,140 - __main__ - INFO - Processing image: static/uploads/Test_Tumor_63.jpg
+2025-08-05 12:21:03,171 - __main__ - INFO - Preprocessed image with original size (512, 512, 3), resized to (128, 128, 3)
+2025-08-05 12:21:03,472 - __main__ - INFO - Prediction completed in 0.30 seconds
+2025-08-05 12:21:03,472 - __main__ - INFO - Raw prediction probability: 1.0000
+2025-08-05 12:21:03,502 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.0, max=1.0
+2025-08-05 12:21:03,506 - __main__ - INFO - Intensity mask: 13891 pixels above threshold
+2025-08-05 12:21:03,513 - __main__ - INFO - Edge mask: 18879 edge pixels detected
+2025-08-05 12:21:04,206 - __main__ - INFO - Texture mask: 154527 high-entropy pixels
+2025-08-05 12:21:04,215 - __main__ - INFO - Combined mask: 31413 pixels selected
+2025-08-05 12:21:04,220 - __main__ - INFO - Largest contour area: 67393.5
+2025-08-05 12:21:04,253 - __main__ - INFO - Segmentation overlay created - location: Middle Center, basis: High intensity, edges, and texture entropy
+2025-08-05 12:21:04,287 - __main__ - INFO - Image preprocessed: shape=(512, 512), min=0.0, max=1.0
+2025-08-05 12:21:04,290 - __main__ - INFO - Intensity mask: 13891 pixels above threshold
+2025-08-05 12:21:04,295 - __main__ - INFO - Edge mask: 18879 edge pixels detected
+2025-08-05 12:21:05,026 - __main__ - INFO - Texture mask: 154527 high-entropy pixels
+2025-08-05 12:21:05,036 - __main__ - INFO - Combined mask: 31413 pixels selected
+2025-08-05 12:21:05,036 - __main__ - INFO - Largest contour area: 67393.5
+2025-08-05 12:21:05,036 - __main__ - INFO - Processed Test_Tumor_63.jpg in 1.91 seconds
+2025-08-05 12:21:05,036 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 1
+2025-08-05 12:21:05,050 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:21:05] "POST /predict HTTP/1.1" 200 -
+2025-08-05 12:21:05,128 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:21:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:21:05,165 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:21:05] "GET /static/uploads/highlighted_Test_Tumor_63.jpg HTTP/1.1" 200 -
+2025-08-05 12:23:12,915 - __main__ - INFO - Saved uploaded file to static/uploads/Test_No_Tumor_6.jpg
+2025-08-05 12:23:12,917 - __main__ - INFO - Bypassing validation for static/uploads/Test_No_Tumor_6.jpg
+2025-08-05 12:23:12,918 - __main__ - INFO - Processing image: static/uploads/Test_No_Tumor_6.jpg
+2025-08-05 12:23:12,954 - __main__ - INFO - Preprocessed image with original size (229, 235, 3), resized to (128, 128, 3)
+2025-08-05 12:23:13,228 - __main__ - INFO - Prediction completed in 0.27 seconds
+2025-08-05 12:23:13,229 - __main__ - INFO - Raw prediction probability: 0.0005
+2025-08-05 12:23:13,234 - __main__ - INFO - Processed Test_No_Tumor_6.jpg in 0.33 seconds
+2025-08-05 12:23:13,234 - __main__ - INFO - Completed processing 1 files. Valid: 1, Tumor positive: 0
+2025-08-05 12:23:13,237 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:23:13] "POST /predict HTTP/1.1" 200 -
+2025-08-05 12:23:13,303 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:23:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-05 12:23:13,334 - werkzeug - INFO - 10.29.28.45 - - [05/Aug/2025 12:23:13] "GET /static/uploads/original_Test_No_Tumor_6.jpg HTTP/1.1" 200 -
